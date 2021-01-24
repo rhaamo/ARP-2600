@@ -47,17 +47,6 @@ F 3 "https://www.onsemi.com/pub/Collateral/2N3906-D.PDF" H 3850 4050 50  0001 L 
 	1    0    0    1   
 $EndComp
 $Comp
-L Transistor_BJT:2N3904 Q2
-U 1 1 60216ED1
-P 4300 3800
-F 0 "Q2" H 4490 3846 50  0000 L CNN
-F 1 "2N3904" H 4490 3755 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 4500 3725 50  0001 L CIN
-F 3 "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF" H 4300 3800 50  0001 L CNN
-	1    4300 3800
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:CP C4
 U 1 1 6021746C
 P 1500 1850
@@ -1068,6 +1057,17 @@ F 1 "+15V" H 6115 3473 50  0000 C CNN
 F 2 "" H 6100 3300 50  0001 C CNN
 F 3 "" H 6100 3300 50  0001 C CNN
 	1    6100 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:2N3904 Q2
+U 1 1 60216ED1
+P 4300 3800
+F 0 "Q2" H 4490 3846 50  0000 L CNN
+F 1 "2N3904" H 4490 3755 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 4500 3725 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF" H 4300 3800 50  0001 L CNN
+	1    4300 3800
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

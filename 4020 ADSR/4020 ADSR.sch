@@ -309,7 +309,7 @@ F 3 "~" H 9100 4400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Q_NJFET_DGS Q3
+L Device:Q_NJFET_SGD Q3
 U 1 1 6078872B
 P 4400 3250
 F 0 "Q3" H 4200 3150 50  0000 L CNN
@@ -332,7 +332,7 @@ F 3 "~" H 5450 3250 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:Q_PNP_ECB Q6
+L Device:Q_PNP_EBC Q6
 U 1 1 6078B4A2
 P 9250 2650
 F 0 "Q6" H 9441 2604 50  0000 L CNN
