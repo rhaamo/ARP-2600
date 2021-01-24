@@ -6,20 +6,20 @@
 
 # Status
 
-| board | schematics | pcb | reviewed | tested |
-| -- | -- | -- | -- | -- |
-| 4014 ring modulator | yes | | | |
-| 4015 sample & hold | | | | |
-| 4019 VCA  | | | | |
-| 4020 ADSR | yes | | | |
-| 4022 Noise  | | | | |
-| 4027 VCO | yes | | | | 
-| 4072 VCF | yes | | | | 
-| Board 1 | | | | |
-| Board 2 | | | | |
-| Board 2-1 | | | | |
-| Board 3 | | | | |
-| Board 4 | | | | |
-| Board 4-1 | | | | |
-| Board 5 | | | | |
-| Board 5-1 | | | | |
+|        board        | schematics | pcb | reviewed | tested |
+| ------------------- | ---------- | --- | -------- | ------ |
+| 4014 ring modulator | yes        |     |          |        |
+| 4015 sample & hold  |            |     |          |        |
+| 4019 VCA            |            |     |          |        |
+| 4020 ADSR           | yes        |     |          |        |
+| 4022 Noise          | yes |     |          |        |
+| 4027 VCO            | yes        |     |          |        |
+| 4072 VCF            | yes        |     |          |        |
+| Board 1             |            |     |          |        |
+| Board 2             |            |     |          |        |
+| Board 2-1           |            |     |          |        |
+| Board 3             |            |     |          |        |
+| Board 4             |            |     |          |        |
+| Board 4-1           |            |     |          |        |
+| Board 5             |            |     |          |        |
+| Board 5-1           |            |     |          |        |
