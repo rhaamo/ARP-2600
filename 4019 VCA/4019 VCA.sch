@@ -1325,4 +1325,14 @@ Connection ~ 9250 5400
 Connection ~ 8600 4650
 Wire Wire Line
 	8600 4650 8750 4650
+Text Notes 6300 1800 0    79   ~ 0
+match and thermal pair
+Wire Notes Line
+	6250 1650 7800 1650
+Wire Notes Line
+	7800 1650 7800 1850
+Wire Notes Line
+	7800 1850 6250 1850
+Wire Notes Line
+	6250 1850 6250 1650
 $EndSCHEMATC

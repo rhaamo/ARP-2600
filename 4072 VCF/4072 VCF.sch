@@ -1824,4 +1824,15 @@ F 3 "" H 8500 3700 50  0001 C CNN
 $EndComp
 Text Notes 8600 3800 0    39   ~ 0
 apparently this caps was added\nin the 4072 from the 4072 edit
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 60B4E714
+P 2800 7650
+F 0 "#FLG?" H 2800 7725 50  0001 C CNN
+F 1 "PWR_FLAG" V 2800 7778 50  0000 L CNN
+F 2 "" H 2800 7650 50  0001 C CNN
+F 3 "~" H 2800 7650 50  0001 C CNN
+	1    2800 7650
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC

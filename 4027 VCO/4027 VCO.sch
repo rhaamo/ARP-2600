@@ -1070,4 +1070,15 @@ F 3 "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF" H 4300 3800 50  0001 L 
 	1    4300 3800
 	1    0    0    -1  
 $EndComp
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 60B56473
+P 1150 2000
+F 0 "#FLG?" H 1150 2075 50  0001 C CNN
+F 1 "PWR_FLAG" H 1050 2150 50  0000 L CNN
+F 2 "" H 1150 2000 50  0001 C CNN
+F 3 "~" H 1150 2000 50  0001 C CNN
+	1    1150 2000
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
