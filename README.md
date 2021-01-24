@@ -25,5 +25,4 @@
 | Board 5-1           |            |     |          |        |
 
 # Notes
-## Board 1
-- Where is connected T4 "ENV. FOLLOWER INPUT" ?
+- None yet

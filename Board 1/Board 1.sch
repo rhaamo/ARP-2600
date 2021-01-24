@@ -386,8 +386,6 @@ Wire Notes Line
 	2600 1400 2600 1600
 Wire Notes Line
 	2600 1600 2550 1600
-Wire Notes Line
-	1850 1400 2600 1400
 Text Notes 1800 1350 0    50   ~ 0
 sleeve: pre amp output
 $Comp
@@ -1746,4 +1744,18 @@ F 3 "" H 5000 9350 50  0001 C CNN
 $EndComp
 Text Notes 8950 5850 0    50   ~ 0
 should also connect TIP to 'env. follower input'
+Text Notes 8950 6000 0    50   ~ 0
+which is the SLEEVE of T1 (upper left)
+Text Notes 1150 1700 0    50   ~ 0
+which is the T4 pin\nof the mic preamp out\nsee middle right
+Wire Notes Line
+	1100 4100 11400 4100
+Wire Notes Line
+	11400 4100 11400 5900
+Wire Notes Line
+	11400 5900 9450 5900
+Wire Notes Line
+	1100 1400 2600 1400
+Wire Notes Line
+	1100 1400 1100 4100
 $EndSCHEMATC
