@@ -1139,11 +1139,11 @@ Connection ~ 8900 5650
 Wire Wire Line
 	8900 5650 8700 5650
 $Comp
-L Connector_Generic:Conn_01x01 J4
+L Connector_Generic:Conn_01x01 J3
 U 1 1 60C8763D
 P 8400 7950
-F 0 "J4" H 8480 7992 50  0000 L CNN
-F 1 "???" H 8480 7901 50  0000 L CNN
+F 0 "J3" H 8480 7992 50  0000 L CNN
+F 1 "X INPUT" H 8480 7901 50  0000 L CNN
 F 2 "" H 8400 7950 50  0001 C CNN
 F 3 "~" H 8400 7950 50  0001 C CNN
 	1    8400 7950
@@ -1237,8 +1237,8 @@ F 3 "~" H 9300 8950 50  0001 C CNN
 	1    9300 8950
 	-1   0    0    1   
 $EndComp
-Text Notes 8700 8100 0    50   ~ 0
-MOD\n4014
+Text Notes 8500 7800 0    50   ~ 0
+MODULE 4014\n(RING MODULATOR)
 Wire Notes Line
 	8300 7850 8300 9050
 Wire Notes Line

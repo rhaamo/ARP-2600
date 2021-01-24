@@ -15,7 +15,7 @@
 | 4022 Noise          | yes |     |          |        |
 | 4027 VCO            | yes        |     |          |        |
 | 4072 VCF            | yes        |     |          |        |
-| Board 1             |            |     |          |        |
+| Board 1             | yes |     |          |        |
 | Board 2             |            |     |          |        |
 | Board 2-1           |            |     |          |        |
 | Board 3             |            |     |          |        |
@@ -23,3 +23,7 @@
 | Board 4-1           |            |     |          |        |
 | Board 5             |            |     |          |        |
 | Board 5-1           |            |     |          |        |
+
+# Notes
+## Board 1
+- Where is connected T4 "ENV. FOLLOWER INPUT" ?
