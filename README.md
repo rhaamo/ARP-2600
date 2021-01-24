@@ -9,7 +9,7 @@
 |        board        | schematics | pcb | reviewed | tested |
 | ------------------- | ---------- | --- | -------- | ------ |
 | 4014 ring modulator | yes        |     |          |        |
-| 4015 sample & hold  |            |     |          |        |
+| 4015 sample & hold  | yes |     |          |        |
 | 4019 VCA            | yes |     |          |        |
 | 4020 ADSR           | yes        |     |          |        |
 | 4022 Noise          | yes |     |          |        |
