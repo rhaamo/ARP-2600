@@ -54,6 +54,7 @@ F 0 "C1" H 1415 1446 50  0000 L CNN
 F 1 "0.01uF" H 1415 1355 50  0000 L CNN
 F 2 "" H 1338 1250 50  0001 C CNN
 F 3 "~" H 1300 1400 50  0001 C CNN
+F 4 "ceramic" H 1300 1400 50  0001 C CNN "notes"
 	1    1300 1400
 	1    0    0    -1  
 $EndComp
@@ -65,6 +66,7 @@ F 0 "C2" H 1415 1846 50  0000 L CNN
 F 1 "0.01uF" H 1415 1755 50  0000 L CNN
 F 2 "" H 1338 1650 50  0001 C CNN
 F 3 "~" H 1300 1800 50  0001 C CNN
+F 4 "ceramic" H 1300 1800 50  0001 C CNN "notes"
 	1    1300 1800
 	1    0    0    -1  
 $EndComp
@@ -149,7 +151,7 @@ L Amplifier_Operational:LM301 A2
 U 1 1 60A92FC1
 P 9050 2600
 F 0 "A2" H 9394 2646 50  0000 L CNN
-F 1 "LM301" H 9394 2555 50  0000 L CNN
+F 1 "LM301A" H 9394 2555 50  0000 L CNN
 F 2 "" H 9100 2650 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm101a-n.pdf" H 9100 2750 50  0001 C CNN
 	1    9050 2600
@@ -229,6 +231,7 @@ F 0 "Q7-1" H 7041 2446 50  0000 L CNN
 F 1 "BF245A or 2SK30" H 6750 2200 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-92_Inline" H 7050 2325 50  0001 L CIN
 F 3 "https://www.onsemi.com/pub/Collateral/BF245A-D.PDF" H 6850 2400 50  0001 L CNN
+F 4 "they have to be matched and thermal paired" H 6850 2400 50  0001 C CNN "notes"
 	1    6850 2400
 	1    0    0    -1  
 $EndComp
@@ -240,6 +243,7 @@ F 0 "Q7-2" H 7041 3054 50  0000 L CNN
 F 1 "BF245A or 2SK30" H 6750 2900 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-92_Inline" H 7050 3025 50  0001 L CIN
 F 3 "https://www.onsemi.com/pub/Collateral/BF245A-D.PDF" H 6850 3100 50  0001 L CNN
+F 4 "they have to be matched and thermal paired" H 6850 3100 50  0001 C CNN "notes"
 	1    6850 3100
 	1    0    0    1   
 $EndComp
@@ -251,6 +255,7 @@ F 0 "C3" H 2615 3396 50  0000 L CNN
 F 1 "20nF" H 2615 3305 50  0000 L CNN
 F 2 "" H 2538 3200 50  0001 C CNN
 F 3 "~" H 2500 3350 50  0001 C CNN
+F 4 "ceramic" H 2500 3350 50  0001 C CNN "notes"
 	1    2500 3350
 	1    0    0    -1  
 $EndComp
@@ -363,6 +368,7 @@ F 0 "C4" V 3098 3200 50  0000 C CNN
 F 1 "30pF" V 3189 3200 50  0000 C CNN
 F 2 "" H 3388 3050 50  0001 C CNN
 F 3 "~" H 3350 3200 50  0001 C CNN
+F 4 "ceramic" H 3350 3200 50  0001 C CNN "notes"
 	1    3350 3200
 	0    1    1    0   
 $EndComp
@@ -405,7 +411,7 @@ L Amplifier_Operational:LM301 A1
 U 1 1 60A92586
 P 3150 3650
 F 0 "A1" H 3494 3696 50  0000 L CNN
-F 1 "LM301" H 3494 3605 50  0000 L CNN
+F 1 "LM301A" H 3494 3605 50  0000 L CNN
 F 2 "" H 3200 3700 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm101a-n.pdf" H 3200 3800 50  0001 C CNN
 	1    3150 3650
@@ -453,6 +459,7 @@ F 0 "C5" V 2498 4550 50  0000 C CNN
 F 1 "20pF" V 2589 4550 50  0000 C CNN
 F 2 "" H 2788 4400 50  0001 C CNN
 F 3 "~" H 2750 4550 50  0001 C CNN
+F 4 "ceramic" H 2750 4550 50  0001 C CNN "notes"
 	1    2750 4550
 	0    1    1    0   
 $EndComp
@@ -877,9 +884,10 @@ L Device:C C8
 U 1 1 60AEF4B6
 P 6300 3850
 F 0 "C8" V 6048 3850 50  0000 C CNN
-F 1 "0.022uF polycarbonate" V 6450 4200 50  0000 C CNN
+F 1 "22nF polycarbonate" V 6450 4200 50  0000 C CNN
 F 2 "" H 6338 3700 50  0001 C CNN
 F 3 "~" H 6300 3850 50  0001 C CNN
+F 4 "polycarbonate" H 6300 3850 50  0001 C CNN "notes"
 	1    6300 3850
 	0    1    1    0   
 $EndComp
@@ -941,6 +949,7 @@ F 0 "C6" V 8048 2000 50  0000 C CNN
 F 1 "20pF" V 8139 2000 50  0000 C CNN
 F 2 "" H 8338 1850 50  0001 C CNN
 F 3 "~" H 8300 2000 50  0001 C CNN
+F 4 "ceramic" H 8300 2000 50  0001 C CNN "notes"
 	1    8300 2000
 	0    1    1    0   
 $EndComp
@@ -991,6 +1000,7 @@ F 0 "C7" V 9602 2300 50  0000 C CNN
 F 1 "30pF" V 9511 2300 50  0000 C CNN
 F 2 "" H 9388 2150 50  0001 C CNN
 F 3 "~" H 9350 2300 50  0001 C CNN
+F 4 "ceramic" H 9350 2300 50  0001 C CNN "notes"
 	1    9350 2300
 	0    -1   -1   0   
 $EndComp
