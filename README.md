@@ -15,7 +15,7 @@
 | 4022 Noise          | yes |     |          |        |
 | 4027 VCO            | yes        |     |          |        |
 | 4072 VCF            | yes        |     |          |        |
-| Board 1             | yes |     |          |        |
+| Board 1             | incomplete |     |          |        |
 | Board 2             |            |     |          |        |
 | Board 2-1           |            |     |          |        |
 | Board 3             |            |     |          |        |
@@ -25,4 +25,6 @@
 | Board 5-1           |            |     |          |        |
 
 # Notes
-- None yet
+## All jacks PCB or not
+- determine how they are correctly wired, tip/sleeve/shunt
+- might want to wait until I get the PJ301BM connectors, and PCBs etched

@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name ARP_2600)(type Legacy)(uri "${KIPRJMOD}/../ARP 2600.lib")(options "")(descr ""))
+  (lib (name w_connector)(type Legacy)(uri ${KIPRJMOD}/../westlicht-kicad-libs/w_connector.lib)(options "")(descr ""))
 )

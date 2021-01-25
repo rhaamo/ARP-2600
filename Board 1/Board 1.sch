@@ -759,7 +759,7 @@ Wire Notes Line
 	10800 1850 10800 2050
 Wire Notes Line
 	10800 2050 10750 2050
-Text Notes 10300 1800 0    50   ~ 0
+Text Notes 10300 1850 0    50   ~ 0
 sleeve: n.c.
 Text Notes 10100 1650 0    79   ~ 0
 env. follower output
@@ -1766,18 +1766,12 @@ Text Notes 8950 5850 0    50   ~ 0
 should also connect TIP to 'env. follower input'
 Text Notes 8950 6000 0    50   ~ 0
 which is the SLEEVE of T1 (upper left)
-Text Notes 1150 1700 0    50   ~ 0
-which is the T4 pin\nof the mic preamp out\nsee middle right
 Wire Notes Line
 	1100 4100 11400 4100
 Wire Notes Line
 	11400 4100 11400 5900
 Wire Notes Line
 	11400 5900 9450 5900
-Wire Notes Line
-	1100 1400 2600 1400
-Wire Notes Line
-	1100 1400 1100 4100
 $Comp
 L Device:R R18
 U 1 1 60F37C69
@@ -1794,4 +1788,106 @@ Wire Wire Line
 Wire Wire Line
 	10150 2300 9950 2300
 Connection ~ 9950 2300
+$Comp
+L w_connector:PJ301BM E2
+U 1 1 600FEB3E
+P 10800 2400
+F 0 "E2" H 10372 2451 50  0000 R CNN
+F 1 "PJ301BM" H 10372 2360 50  0000 R CNN
+F 2 "" H 10950 2500 50  0001 C CNN
+F 3 "https://www.thonk.co.uk/shop/3-5mm-jacks/" H 10950 2500 50  0001 C CNN
+	1    10800 2400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L w_connector:PJ301BM E4
+U 1 1 601006C8
+P 9650 5350
+F 0 "E4" H 9222 5401 50  0000 R CNN
+F 1 "PJ301BM" H 9222 5310 50  0000 R CNN
+F 2 "" H 9800 5450 50  0001 C CNN
+F 3 "https://www.thonk.co.uk/shop/3-5mm-jacks/" H 9800 5450 50  0001 C CNN
+	1    9650 5350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L w_connector:PJ301BM E3
+U 1 1 6010151E
+P 2350 5250
+F 0 "E3" H 2208 5575 50  0000 C CNN
+F 1 "PJ301BM" H 2208 5484 50  0000 C CNN
+F 2 "" H 2500 5350 50  0001 C CNN
+F 3 "https://www.thonk.co.uk/shop/3-5mm-jacks/" H 2500 5350 50  0001 C CNN
+	1    2350 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L w_connector:PJ301BM E5
+U 1 1 6010250C
+P 3850 7750
+F 0 "E5" H 3708 8075 50  0000 C CNN
+F 1 "PJ301BM" H 3708 7984 50  0000 C CNN
+F 2 "" H 4000 7850 50  0001 C CNN
+F 3 "https://www.thonk.co.uk/shop/3-5mm-jacks/" H 4000 7850 50  0001 C CNN
+	1    3850 7750
+	1    0    0    -1  
+$EndComp
+$Comp
+L w_connector:PJ301BM E6
+U 1 1 60103205
+P 3800 9100
+F 0 "E6" H 3658 9425 50  0000 C CNN
+F 1 "PJ301BM" H 3658 9334 50  0000 C CNN
+F 2 "" H 3950 9200 50  0001 C CNN
+F 3 "https://www.thonk.co.uk/shop/3-5mm-jacks/" H 3950 9200 50  0001 C CNN
+	1    3800 9100
+	1    0    0    -1  
+$EndComp
+$Comp
+L w_connector:PJ301BM E7
+U 1 1 601037C2
+P 11550 8650
+F 0 "E7" H 11122 8701 50  0000 R CNN
+F 1 "PJ301BM" H 11122 8610 50  0000 R CNN
+F 2 "" H 11700 8750 50  0001 C CNN
+F 3 "https://www.thonk.co.uk/shop/3-5mm-jacks/" H 11700 8750 50  0001 C CNN
+	1    11550 8650
+	-1   0    0    -1  
+$EndComp
+Connection ~ 10700 2300
+NoConn ~ 10700 2400
+NoConn ~ 10700 2500
+$Comp
+L w_connector:PJ301BM E1
+U 1 1 600FE280
+P 1650 2100
+F 0 "E1" H 1508 2425 50  0000 C CNN
+F 1 "PJ301BM" H 1508 2334 50  0000 C CNN
+F 2 "" H 1800 2200 50  0001 C CNN
+F 3 "https://www.thonk.co.uk/shop/3-5mm-jacks/" H 1800 2200 50  0001 C CNN
+	1    1650 2100
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	1100 1400 1100 4100
+Wire Notes Line
+	1100 1400 2600 1400
+NoConn ~ 1750 2000
+NoConn ~ 1750 2100
+NoConn ~ 1750 2200
+NoConn ~ 9550 5250
+NoConn ~ 9550 5350
+NoConn ~ 9550 5450
+NoConn ~ 2450 5150
+NoConn ~ 2450 5250
+NoConn ~ 2450 5350
+NoConn ~ 3900 9000
+NoConn ~ 3900 9100
+NoConn ~ 3900 9200
+NoConn ~ 3950 7650
+NoConn ~ 3950 7750
+NoConn ~ 3950 7850
+NoConn ~ 11450 8550
+NoConn ~ 11450 8650
+NoConn ~ 11450 8750
 $EndSCHEMATC
