@@ -41,3 +41,4 @@ Adaptations have been made for 4072 VCF instead of 4012.
 # Guidelines
 - keep the same number as original schematics (R123, CR42, etc.)
 - uses different prefix for Resistors (R), Trimmers (VR) and Faders (?), also to do that on existing made schematics.
+- Jack sockets are `Exx`, hole for soldering a PCB one or other wiring is `Txx`
