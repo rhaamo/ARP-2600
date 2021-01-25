@@ -16,7 +16,7 @@
 | 4027 VCO            | yes        |     |          |        |
 | 4072 VCF            | yes        |     |          |        |
 | Board 1             | incomplete |     |          |        |
-| Board 2             |            |     |          |        |
+| Board 2             | yes |     |          |        |
 | Board 2-1           |            |     |          |        |
 | Board 3             |            |     |          |        |
 | Board 4             |            |     |          |        |
