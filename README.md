@@ -17,7 +17,7 @@
 | 4072 VCF            | yes        |     |          |        |
 | Board 1             | yes |     |          |        |
 | Board 2             | yes |     |          |        |
-| Board 2-1           |            |     |          |        |
+| Board 2-1           | yes |     |          |        |
 | Board 3             |            |     |          |        |
 | Board 4             |            |     |          |        |
 | Board 4-1           |            |     |          |        |
