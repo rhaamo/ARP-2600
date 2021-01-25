@@ -18,7 +18,7 @@
 | Board 1             | yes |     |          |        |
 | Board 2             | yes |     |          |        |
 | Board 2-1           | yes |     |          |        |
-| Board 3             |            |     |          |        |
+| Board 3             | yes |     |          |        |
 | Board 4             |            |     |          |        |
 | Board 4-1           |            |     |          |        |
 | Board 5             |            |     |          |        |
@@ -34,3 +34,10 @@
 
 ## Patroche reverse
 - Some typos presents, missing items in BOM, and some components are mislabelled in the PCB placement pictures
+
+## Board 3
+Adaptations have been made for 4072 VCF instead of 4012.
+
+# Guidelines
+- keep the same number as original schematics (R123, CR42, etc.)
+- uses different prefix for Resistors (R), Trimmers (VR) and Faders (?), also to do that on existing made schematics.
