@@ -377,24 +377,16 @@ Connection ~ 3300 2600
 $Comp
 L Connector_Generic:Conn_01x01 T1
 U 1 1 60B94122
-P 2500 1500
-F 0 "T1" V 2464 1412 50  0000 R CNN
-F 1 "TIP" V 2373 1412 50  0000 R CNN
-F 2 "" H 2500 1500 50  0001 C CNN
-F 3 "~" H 2500 1500 50  0001 C CNN
-	1    2500 1500
-	0    -1   -1   0   
+P 1700 1850
+F 0 "T1" V 1664 1762 50  0000 R CNN
+F 1 "TIP" V 1573 1762 50  0000 R CNN
+F 2 "" H 1700 1850 50  0001 C CNN
+F 3 "~" H 1700 1850 50  0001 C CNN
+	1    1700 1850
+	-1   0    0    -1  
 $EndComp
-Wire Notes Line
-	2450 1600 2400 1600
-Wire Notes Line
-	2400 1600 2400 1400
-Wire Notes Line
-	2600 1400 2600 1600
-Wire Notes Line
-	2600 1600 2550 1600
-Text Notes 1800 1350 0    50   ~ 0
-sleeve: pre amp output
+Text Notes 1950 1600 0    50   ~ 0
+shunt is from pre amp output
 $Comp
 L Device:R R8
 U 1 1 60B9636C
@@ -561,7 +553,7 @@ Wire Wire Line
 Connection ~ 5400 1650
 Wire Wire Line
 	5400 1650 5100 1650
-Text Notes 1900 1200 0    79   ~ 0
+Text Notes 1400 1150 0    79   ~ 0
 env. follower input
 Text Notes 11850 10500 0    79   ~ 0
 by default jacks have a shunt between TIP and SLEEVE
@@ -738,35 +730,21 @@ Wire Wire Line
 Connection ~ 8250 3550
 Wire Wire Line
 	8250 3550 7800 3550
-Wire Wire Line
-	10700 2150 10700 2300
 $Comp
 L Connector_Generic:Conn_01x01 T2
 U 1 1 60BD5C03
-P 10700 1950
-F 0 "T2" V 10664 1862 50  0000 R CNN
-F 1 "TIP" V 10573 1862 50  0000 R CNN
-F 2 "" H 10700 1950 50  0001 C CNN
-F 3 "~" H 10700 1950 50  0001 C CNN
-	1    10700 1950
-	0    -1   -1   0   
+P 11150 2450
+F 0 "T2" V 11114 2362 50  0000 R CNN
+F 1 "TIP" V 11023 2362 50  0000 R CNN
+F 2 "" H 11150 2450 50  0001 C CNN
+F 3 "~" H 11150 2450 50  0001 C CNN
+	1    11150 2450
+	1    0    0    -1  
 $EndComp
-Wire Notes Line
-	10650 2050 10600 2050
-Wire Notes Line
-	10600 2050 10600 1850
-Wire Notes Line
-	10800 1850 10800 2050
-Wire Notes Line
-	10800 2050 10750 2050
-Text Notes 10300 1850 0    50   ~ 0
-sleeve: n.c.
-Text Notes 10100 1650 0    79   ~ 0
+Text Notes 10650 1850 0    79   ~ 0
 env. follower output
 Wire Wire Line
 	9550 2300 9950 2300
-Wire Notes Line
-	10800 1850 10300 1850
 $Comp
 L Device:R R17
 U 1 1 60BDC4CF
@@ -813,33 +791,8 @@ Wire Wire Line
 	8400 1500 9950 1500
 Wire Wire Line
 	9950 1500 9950 2300
-$Comp
-L Connector_Generic:Conn_01x01 T3
-U 1 1 60C0A2B7
-P 2950 4850
-F 0 "T3" V 2914 4762 50  0000 R CNN
-F 1 "TIP" V 2823 4762 50  0000 R CNN
-F 2 "" H 2950 4850 50  0001 C CNN
-F 3 "~" H 2950 4850 50  0001 C CNN
-	1    2950 4850
-	0    -1   -1   0   
-$EndComp
-Wire Notes Line
-	2900 4950 2850 4950
-Wire Notes Line
-	2850 4950 2850 4750
-Wire Notes Line
-	3050 4750 3050 4950
-Wire Notes Line
-	3050 4950 3000 4950
-Text Notes 2550 4700 0    50   ~ 0
-sleeve: GND
 Text Notes 2350 4550 0    79   ~ 0
 microphone preamp input
-Wire Notes Line
-	3050 4750 2550 4750
-Wire Wire Line
-	2950 5050 2950 5200
 Wire Wire Line
 	3550 5200 2950 5200
 Wire Wire Line
@@ -1117,30 +1070,16 @@ Connection ~ 6900 5200
 $Comp
 L Connector_Generic:Conn_01x01 T4
 U 1 1 60C730DD
-P 9200 5300
-F 0 "T4" V 9164 5212 50  0000 R CNN
-F 1 "TIP" V 9073 5212 50  0000 R CNN
-F 2 "" H 9200 5300 50  0001 C CNN
-F 3 "~" H 9200 5300 50  0001 C CNN
-	1    9200 5300
-	0    -1   -1   0   
+P 9550 5350
+F 0 "T4" V 9514 5262 50  0000 R CNN
+F 1 "TIP" V 9423 5262 50  0000 R CNN
+F 2 "" H 9550 5350 50  0001 C CNN
+F 3 "~" H 9550 5350 50  0001 C CNN
+	1    9550 5350
+	1    0    0    -1  
 $EndComp
-Wire Notes Line
-	9150 5400 9100 5400
-Wire Notes Line
-	9100 5400 9100 5200
-Wire Notes Line
-	9300 5200 9300 5400
-Wire Notes Line
-	9300 5400 9250 5400
-Text Notes 8800 5150 0    50   ~ 0
-sleeve: N.C.
-Text Notes 8600 5000 0    79   ~ 0
+Text Notes 8850 4600 0    79   ~ 0
 microphone preamp output
-Wire Notes Line
-	9300 5200 8800 5200
-Wire Wire Line
-	9200 5500 9200 5650
 Wire Wire Line
 	9200 5650 8900 5650
 Wire Wire Line
@@ -1317,28 +1256,16 @@ $EndComp
 $Comp
 L Connector_Generic:Conn_01x01 T7
 U 1 1 60CB6B5C
-P 11050 8500
-F 0 "T7" V 11014 8412 50  0000 R CNN
-F 1 "TIP" V 10923 8412 50  0000 R CNN
-F 2 "" H 11050 8500 50  0001 C CNN
-F 3 "~" H 11050 8500 50  0001 C CNN
-	1    11050 8500
-	0    -1   -1   0   
+P 11250 8850
+F 0 "T7" V 11214 8762 50  0000 R CNN
+F 1 "TIP" V 11123 8762 50  0000 R CNN
+F 2 "" H 11250 8850 50  0001 C CNN
+F 3 "~" H 11250 8850 50  0001 C CNN
+	1    11250 8850
+	1    0    0    -1  
 $EndComp
-Wire Notes Line
-	11000 8600 10950 8600
-Wire Notes Line
-	10950 8600 10950 8400
-Wire Notes Line
-	11150 8400 11150 8600
-Wire Notes Line
-	11150 8600 11100 8600
-Text Notes 10650 8350 0    50   ~ 0
-sleeve: N.C.
 Text Notes 10450 8200 0    79   ~ 0
 ring mod output
-Wire Notes Line
-	11150 8400 10650 8400
 Wire Wire Line
 	11050 8700 10700 8700
 Wire Wire Line
@@ -1518,81 +1445,53 @@ Wire Wire Line
 $Comp
 L Connector_Generic:Conn_01x01 T5
 U 1 1 60D65346
-P 4600 7450
-F 0 "T5" V 4564 7362 50  0000 R CNN
-F 1 "TIP" V 4473 7362 50  0000 R CNN
-F 2 "" H 4600 7450 50  0001 C CNN
-F 3 "~" H 4600 7450 50  0001 C CNN
-	1    4600 7450
-	0    -1   -1   0   
+P 3750 7950
+F 0 "T5" V 3714 7862 50  0000 R CNN
+F 1 "TIP" V 3623 7862 50  0000 R CNN
+F 2 "" H 3750 7950 50  0001 C CNN
+F 3 "~" H 3750 7950 50  0001 C CNN
+	1    3750 7950
+	-1   0    0    -1  
 $EndComp
-Wire Notes Line
-	4550 7550 4500 7550
-Wire Notes Line
-	4500 7550 4500 7350
-Wire Notes Line
-	4700 7350 4700 7550
-Wire Notes Line
-	4700 7550 4650 7550
-Text Notes 4200 7300 0    50   ~ 0
-sleeve: VCO 2
-Wire Notes Line
-	4700 7350 4200 7350
-Wire Wire Line
-	4600 7650 4600 7800
 $Comp
 L Connector_Generic:Conn_01x01 T6
 U 1 1 60D6E04D
-P 4600 8700
-F 0 "T6" V 4564 8612 50  0000 R CNN
-F 1 "TIP" V 4473 8612 50  0000 R CNN
-F 2 "" H 4600 8700 50  0001 C CNN
-F 3 "~" H 4600 8700 50  0001 C CNN
-	1    4600 8700
-	0    -1   -1   0   
+P 3750 9200
+F 0 "T6" V 3714 9112 50  0000 R CNN
+F 1 "TIP" V 3623 9112 50  0000 R CNN
+F 2 "" H 3750 9200 50  0001 C CNN
+F 3 "~" H 3750 9200 50  0001 C CNN
+	1    3750 9200
+	-1   0    0    -1  
 $EndComp
-Wire Notes Line
-	4550 8800 4500 8800
-Wire Notes Line
-	4500 8800 4500 8600
-Wire Notes Line
-	4700 8600 4700 8800
-Wire Notes Line
-	4700 8800 4650 8800
-Text Notes 4200 8550 0    50   ~ 0
-sleeve: VCO 1
-Wire Notes Line
-	4700 8600 4200 8600
-Wire Wire Line
-	4600 8900 4600 9050
-Text Notes 4200 7200 0    50   ~ 0
+Text Notes 4100 7550 0    50   ~ 0
 signal is a sinusoide
 Wire Notes Line
-	4250 8450 4250 8300
+	4250 8800 4250 8650
 Wire Notes Line
-	4250 8300 4150 8450
+	4250 8650 4150 8800
 Wire Notes Line
-	4350 8450 4350 8300
+	4350 8800 4350 8650
 Wire Notes Line
-	4350 8300 4250 8450
+	4350 8650 4250 8800
 Wire Notes Line
-	4450 8450 4450 8300
+	4450 8800 4450 8650
 Wire Notes Line
-	4450 8300 4350 8450
+	4450 8650 4350 8800
 Wire Notes Line
-	4550 8450 4550 8300
+	4550 8800 4550 8650
 Wire Notes Line
-	4550 8300 4450 8450
+	4550 8650 4450 8800
 Wire Notes Line
-	4650 8450 4650 8300
+	4650 8800 4650 8650
 Wire Notes Line
-	4650 8300 4550 8450
+	4650 8650 4550 8800
 Wire Notes Line
-	4750 8450 4750 8300
+	4750 8800 4750 8650
 Wire Notes Line
-	4750 8300 4650 8450
+	4750 8650 4650 8800
 Wire Notes Line
-	4100 8450 4750 8450
+	4100 8800 4750 8800
 $Comp
 L Device:CP C13
 U 1 1 60DBCA2C
@@ -1669,8 +1568,6 @@ F 3 "~" H 4950 7950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4600 7800 4950 7800
-Wire Wire Line
 	5100 7950 5850 7950
 Connection ~ 5850 7950
 $Comp
@@ -1736,8 +1633,6 @@ F 3 "~" H 5000 9200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4600 9050 5000 9050
-Wire Wire Line
 	5150 9200 5850 9200
 Connection ~ 5850 9200
 $Comp
@@ -1767,8 +1662,6 @@ should also connect TIP to 'env. follower input'
 Text Notes 8950 6000 0    50   ~ 0
 which is the SLEEVE of T1 (upper left)
 Wire Notes Line
-	1100 4100 11400 4100
-Wire Notes Line
 	11400 4100 11400 5900
 Wire Notes Line
 	11400 5900 9450 5900
@@ -1784,110 +1677,220 @@ F 3 "~" H 10300 2300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	10450 2300 10700 2300
+	10450 2300 10950 2300
 Wire Wire Line
 	10150 2300 9950 2300
 Connection ~ 9950 2300
 $Comp
 L w_connector:PJ301BM E2
 U 1 1 600FEB3E
-P 10800 2400
-F 0 "E2" H 10372 2451 50  0000 R CNN
-F 1 "PJ301BM" H 10372 2360 50  0000 R CNN
-F 2 "" H 10950 2500 50  0001 C CNN
-F 3 "https://www.thonk.co.uk/shop/3-5mm-jacks/" H 10950 2500 50  0001 C CNN
-	1    10800 2400
+P 11050 2200
+F 0 "E2" H 10622 2251 50  0000 R CNN
+F 1 "PJ301BM" H 10622 2160 50  0000 R CNN
+F 2 "" H 11200 2300 50  0001 C CNN
+F 3 "https://www.thonk.co.uk/shop/3-5mm-jacks/" H 11200 2300 50  0001 C CNN
+	1    11050 2200
 	-1   0    0    -1  
 $EndComp
 $Comp
 L w_connector:PJ301BM E4
 U 1 1 601006C8
-P 9650 5350
-F 0 "E4" H 9222 5401 50  0000 R CNN
-F 1 "PJ301BM" H 9222 5310 50  0000 R CNN
-F 2 "" H 9800 5450 50  0001 C CNN
-F 3 "https://www.thonk.co.uk/shop/3-5mm-jacks/" H 9800 5450 50  0001 C CNN
-	1    9650 5350
+P 9450 5100
+F 0 "E4" H 9022 5151 50  0000 R CNN
+F 1 "PJ301BM" H 9022 5060 50  0000 R CNN
+F 2 "" H 9600 5200 50  0001 C CNN
+F 3 "https://www.thonk.co.uk/shop/3-5mm-jacks/" H 9600 5200 50  0001 C CNN
+	1    9450 5100
 	-1   0    0    -1  
 $EndComp
 $Comp
 L w_connector:PJ301BM E3
 U 1 1 6010151E
-P 2350 5250
-F 0 "E3" H 2208 5575 50  0000 C CNN
-F 1 "PJ301BM" H 2208 5484 50  0000 C CNN
-F 2 "" H 2500 5350 50  0001 C CNN
-F 3 "https://www.thonk.co.uk/shop/3-5mm-jacks/" H 2500 5350 50  0001 C CNN
-	1    2350 5250
+P 2850 5100
+F 0 "E3" H 2708 5425 50  0000 C CNN
+F 1 "PJ301BM" H 2708 5334 50  0000 C CNN
+F 2 "" H 3000 5200 50  0001 C CNN
+F 3 "https://www.thonk.co.uk/shop/3-5mm-jacks/" H 3000 5200 50  0001 C CNN
+	1    2850 5100
 	1    0    0    -1  
 $EndComp
 $Comp
 L w_connector:PJ301BM E5
 U 1 1 6010250C
-P 3850 7750
-F 0 "E5" H 3708 8075 50  0000 C CNN
-F 1 "PJ301BM" H 3708 7984 50  0000 C CNN
-F 2 "" H 4000 7850 50  0001 C CNN
-F 3 "https://www.thonk.co.uk/shop/3-5mm-jacks/" H 4000 7850 50  0001 C CNN
-	1    3850 7750
+P 3850 7700
+F 0 "E5" H 3708 8025 50  0000 C CNN
+F 1 "PJ301BM" H 3708 7934 50  0000 C CNN
+F 2 "" H 4000 7800 50  0001 C CNN
+F 3 "https://www.thonk.co.uk/shop/3-5mm-jacks/" H 4000 7800 50  0001 C CNN
+	1    3850 7700
 	1    0    0    -1  
 $EndComp
 $Comp
 L w_connector:PJ301BM E6
 U 1 1 60103205
-P 3800 9100
-F 0 "E6" H 3658 9425 50  0000 C CNN
-F 1 "PJ301BM" H 3658 9334 50  0000 C CNN
-F 2 "" H 3950 9200 50  0001 C CNN
-F 3 "https://www.thonk.co.uk/shop/3-5mm-jacks/" H 3950 9200 50  0001 C CNN
-	1    3800 9100
+P 3850 8950
+F 0 "E6" H 3708 9275 50  0000 C CNN
+F 1 "PJ301BM" H 3708 9184 50  0000 C CNN
+F 2 "" H 4000 9050 50  0001 C CNN
+F 3 "https://www.thonk.co.uk/shop/3-5mm-jacks/" H 4000 9050 50  0001 C CNN
+	1    3850 8950
 	1    0    0    -1  
 $EndComp
 $Comp
 L w_connector:PJ301BM E7
 U 1 1 601037C2
-P 11550 8650
-F 0 "E7" H 11122 8701 50  0000 R CNN
-F 1 "PJ301BM" H 11122 8610 50  0000 R CNN
-F 2 "" H 11700 8750 50  0001 C CNN
-F 3 "https://www.thonk.co.uk/shop/3-5mm-jacks/" H 11700 8750 50  0001 C CNN
-	1    11550 8650
+P 11150 8600
+F 0 "E7" H 10722 8651 50  0000 R CNN
+F 1 "PJ301BM" H 10722 8560 50  0000 R CNN
+F 2 "" H 11300 8700 50  0001 C CNN
+F 3 "https://www.thonk.co.uk/shop/3-5mm-jacks/" H 11300 8700 50  0001 C CNN
+	1    11150 8600
 	-1   0    0    -1  
 $EndComp
-Connection ~ 10700 2300
-NoConn ~ 10700 2400
-NoConn ~ 10700 2500
+NoConn ~ 10950 2200
 $Comp
 L w_connector:PJ301BM E1
 U 1 1 600FE280
-P 1650 2100
-F 0 "E1" H 1508 2425 50  0000 C CNN
-F 1 "PJ301BM" H 1508 2334 50  0000 C CNN
-F 2 "" H 1800 2200 50  0001 C CNN
-F 3 "https://www.thonk.co.uk/shop/3-5mm-jacks/" H 1800 2200 50  0001 C CNN
-	1    1650 2100
+P 1800 1600
+F 0 "E1" H 1658 1925 50  0000 C CNN
+F 1 "PJ301BM" H 1658 1834 50  0000 C CNN
+F 2 "" H 1950 1700 50  0001 C CNN
+F 3 "https://www.thonk.co.uk/shop/3-5mm-jacks/" H 1950 1700 50  0001 C CNN
+	1    1800 1600
 	1    0    0    -1  
 $EndComp
+NoConn ~ 1900 1600
+NoConn ~ 3950 7700
+NoConn ~ 11050 8600
+$Comp
+L power:GND #PWR?
+U 1 1 6020D90F
+P 2950 5000
+F 0 "#PWR?" H 2950 4750 50  0001 C CNN
+F 1 "GND" H 2955 4827 50  0000 C CNN
+F 2 "" H 2950 5000 50  0001 C CNN
+F 3 "" H 2950 5000 50  0001 C CNN
+	1    2950 5000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2950 5000 2950 5100
+Connection ~ 2950 5000
+NoConn ~ 9350 5100
+$Comp
+L power:GND #PWR?
+U 1 1 6023859B
+P 9350 5000
+F 0 "#PWR?" H 9350 4750 50  0001 C CNN
+F 1 "GND" H 9355 4827 50  0000 C CNN
+F 2 "" H 9350 5000 50  0001 C CNN
+F 3 "" H 9350 5000 50  0001 C CNN
+	1    9350 5000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9350 5200 9350 5350
+Wire Wire Line
+	9350 5350 9200 5350
+Wire Wire Line
+	9200 5350 9200 5650
+Connection ~ 9350 5350
+Text Notes 10850 4050 0    50   ~ 0
+wire
+Text Notes 2050 4050 0    50   ~ 0
+wire
+Text Notes 1050 2150 0    50   ~ 0
+jack is on front panel
+Text Notes 2950 7300 0    50   ~ 0
+jack is on front panel
+Text Notes 3050 8550 0    50   ~ 0
+jack is on front panel
+$Comp
+L power:GND #PWR?
+U 1 1 602596B1
+P 11050 8500
+F 0 "#PWR?" H 11050 8250 50  0001 C CNN
+F 1 "GND" H 11055 8327 50  0000 C CNN
+F 2 "" H 11050 8500 50  0001 C CNN
+F 3 "" H 11050 8500 50  0001 C CNN
+	1    11050 8500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	11050 8700 11050 8850
+Connection ~ 11050 8700
+$Comp
+L power:GND #PWR?
+U 1 1 6028C893
+P 10950 2100
+F 0 "#PWR?" H 10950 1850 50  0001 C CNN
+F 1 "GND" V 10955 1972 50  0000 R CNN
+F 2 "" H 10950 2100 50  0001 C CNN
+F 3 "" H 10950 2100 50  0001 C CNN
+	1    10950 2100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10950 2300 10950 2450
+Connection ~ 10950 2300
+Text Notes 4000 7700 0    50   ~ 0
+shunt to VCO 2
+$Comp
+L power:GND #PWR?
+U 1 1 602D61B8
+P 3950 7600
+F 0 "#PWR?" H 3950 7350 50  0001 C CNN
+F 1 "GND" H 3955 7427 50  0000 C CNN
+F 2 "" H 3950 7600 50  0001 C CNN
+F 3 "" H 3950 7600 50  0001 C CNN
+	1    3950 7600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3950 7800 3950 7950
+Wire Wire Line
+	3950 7800 4950 7800
+Connection ~ 3950 7800
+Wire Wire Line
+	3950 9050 3950 9200
+Wire Wire Line
+	3950 9050 5000 9050
+Connection ~ 3950 9050
+Text Notes 4000 8950 0    50   ~ 0
+shunt to VCO 1
+$Comp
+L power:GND #PWR?
+U 1 1 60328D1E
+P 3950 8850
+F 0 "#PWR?" H 3950 8600 50  0001 C CNN
+F 1 "GND" H 3955 8677 50  0000 C CNN
+F 2 "" H 3950 8850 50  0001 C CNN
+F 3 "" H 3950 8850 50  0001 C CNN
+	1    3950 8850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1900 1700 1900 1850
+Wire Wire Line
+	2500 1700 1900 1700
+Connection ~ 1900 1700
+$Comp
+L power:GND #PWR?
+U 1 1 60378854
+P 1900 1500
+F 0 "#PWR?" H 1900 1250 50  0001 C CNN
+F 1 "GND" V 1905 1372 50  0000 R CNN
+F 2 "" H 1900 1500 50  0001 C CNN
+F 3 "" H 1900 1500 50  0001 C CNN
+	1    1900 1500
+	-1   0    0    1   
+$EndComp
 Wire Notes Line
-	1100 1400 1100 4100
+	1900 1600 2000 1600
 Wire Notes Line
-	1100 1400 2600 1400
-NoConn ~ 1750 2000
-NoConn ~ 1750 2100
-NoConn ~ 1750 2200
-NoConn ~ 9550 5250
-NoConn ~ 9550 5350
-NoConn ~ 9550 5450
-NoConn ~ 2450 5150
-NoConn ~ 2450 5250
-NoConn ~ 2450 5350
-NoConn ~ 3900 9000
-NoConn ~ 3900 9100
-NoConn ~ 3900 9200
-NoConn ~ 3950 7650
-NoConn ~ 3950 7750
-NoConn ~ 3950 7850
-NoConn ~ 11450 8550
-NoConn ~ 11450 8650
-NoConn ~ 11450 8750
+	2000 1600 2000 4100
+Wire Notes Line
+	2000 4100 11400 4100
+Text Notes 2100 2100 1    50   ~ 0
+wire
 $EndSCHEMATC

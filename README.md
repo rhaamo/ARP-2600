@@ -25,6 +25,12 @@
 | Board 5-1           |            |     |          |        |
 
 # Notes
-## All jacks PCB or not
-- determine how they are correctly wired, tip/sleeve/shunt
-- might want to wait until I get the PJ301BM connectors, and PCBs etched
+## All panel jacks
+- check if they are properly labelled/wired
+
+## Original schematics
+- The jacks have S and T, S represent SHUNT, T for TIP, and the circle seems the SLEEVE
+- an UP arrow is +15V, a DOWN arrow is -15V
+
+## Patroche reverse
+- Some typos presents, missing items in BOM, and some components are mislabelled in the PCB placement pictures
