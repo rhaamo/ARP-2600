@@ -52,7 +52,7 @@ Adaptations have been made for 4072 VCF instead of 4012.
 - Jack sockets are `Exx`, hole for soldering a PANEL one or other wiring is `Txx`
 - Use the PCBs from patroche to check for jacks on PCB vs panel and the associated 'pads' for the flying wires between boards
 - Properly document thoses 'flying wires' like https://raw.githubusercontent.com/CreativeInquiry/ARP-2600/master/ARP-2600-Harness-Wiring.jpg but maybe in SVG/PDF.
-- PSU won't (yet) be recreated, you can use a newer, better one like https://www.muffwiggler.com/forum/viewtopic.php?t=130814&highlight=
+- PSU won't (yet) be recreated, you can use a newer, better one like https://www.muffwiggler.com/forum/viewtopic.php?t=130814&highlight= (PCB is available in 115 and 230V)
 - Keyboard is not planned as CV/Gate is available on the panel, use your own midi-to-cv or keyboard with CV/Gate output
 
 # Plans
