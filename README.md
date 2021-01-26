@@ -50,3 +50,10 @@ Adaptations have been made for 4072 VCF instead of 4012.
 - keep the same number as original schematics (R123, CR42, etc.)
 - uses different prefix for Resistors (R), Trimmers (VR) and Faders (?), also to do that on existing made schematics.
 - Jack sockets are `Exx`, hole for soldering a PANEL one or other wiring is `Txx`
+- Use the PCBs from patroche to check for jacks on PCB vs panel and the associated 'pads' for the flying wires between boards
+- Properly document thoses 'flying wires' like https://raw.githubusercontent.com/CreativeInquiry/ARP-2600/master/ARP-2600-Harness-Wiring.jpg but maybe in SVG/PDF.
+
+# Plans
+1. Make identical boards as original/patroche
+2. Maybe re-add the panel jacks to the bottom of PCBs
+3. We will see
