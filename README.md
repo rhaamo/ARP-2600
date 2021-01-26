@@ -19,7 +19,7 @@
 | Board 2             | yes |     |          |        |
 | Board 2-1           | yes |     |          |        |
 | Board 3             | yes |     |          |        |
-| Board 4             | WIP |     |          |        |
+| Board 4             | yes |     |          |        |
 | Board 4-1           |            |     |          |        |
 | Board 5             |            |     |          |        |
 | Board 5-1           |            |     |          |        |
@@ -39,7 +39,9 @@
 Adaptations have been made for 4072 VCF instead of 4012.
 
 ## Board 4
-Shouldn't `E57` and `E65` reverb input and output be internal RCA ?
+- Shouldn't `E57` and `E65` reverb input and output be internal RCA ?
+- Some jacks / solder points don't have a number on schematics (given one arbitrary)
+- two pairs of components have the same number too (changed one)
 
 # Guidelines
 - keep the same number as original schematics (R123, CR42, etc.)
