@@ -21,7 +21,7 @@
 | Board 3             | yes |     |          |        |
 | Board 4             | yes |     |          |        |
 | Board 4-1           | yes |     |          |        |
-| Board 5             |            |     |          |        |
+| Board 5             | yes |     |          |        |
 | Board 5-1           |            |     |          |        |
 
 # Notes
