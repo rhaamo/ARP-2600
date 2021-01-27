@@ -22,7 +22,7 @@
 | Board 4             | yes |     |          |        |
 | Board 4-1           | yes |     |          |        |
 | Board 5             | yes |     |          |        |
-| Board 5-1           |            |     |          |        |
+| Board 5-1           | yes |     |          |        |
 
 # Notes
 ## All panel jacks
@@ -48,6 +48,7 @@ Adaptations have been made for 4072 VCF instead of 4012.
 
 ## Board 5-1
 - In patroche PCB view, pin 1 and 4 are swapped from the schematics
+- see notes in schematics for renamed parts
 
 # Guidelines
 - keep the same number as original schematics (R123, CR42, etc.)
