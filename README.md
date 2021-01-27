@@ -46,6 +46,9 @@ Adaptations have been made for 4072 VCF instead of 4012.
 ## Board 4-1
 - one duplicate reference, some missing in patroche bom, one value differs from schematics
 
+## Board 5-1
+- In patroche PCB view, pin 1 and 4 are swapped from the schematics
+
 # Guidelines
 - keep the same number as original schematics (R123, CR42, etc.)
 - uses different prefix for Resistors (R), Trimmers (VR) and Faders (?), also to do that on existing made schematics.
