@@ -58,6 +58,7 @@ Adaptations have been made for 4072 VCF instead of 4012.
 - Properly document thoses 'flying wires' like https://raw.githubusercontent.com/CreativeInquiry/ARP-2600/master/ARP-2600-Harness-Wiring.jpg but maybe in SVG/PDF.
 - PSU won't (yet) be recreated, you can use a newer, better one like https://www.muffwiggler.com/forum/viewtopic.php?t=130814&highlight= (PCB is available in 115 and 230V)
 - Keyboard is not planned as CV/Gate is available on the panel, use your own midi-to-cv or keyboard with CV/Gate output
+- Properly document in a separate file all changes between schematics/patroche (and our renaming of duplicates)
 
 # Plans
 1. Make identical boards as original/patroche
