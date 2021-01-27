@@ -1393,4 +1393,6 @@ Wire Notes Line
 	5000 1700 7450 1700
 Text Notes 5400 3950 0    118  ~ 0
 BOARD 5-1
+Text Notes 3750 6800 0    50   ~ 0
+LAG OUT
 $EndSCHEMATC
