@@ -6,6 +6,7 @@ BOARDS="4014 Ring Modulator" \
 				"4020 ADSR" \
 				"4022 Noise" \
 				"4027 VCO" \
+				"4072 VCF" \
 				"Board 1" \
 				"Board 2" \
 				"Board 2-1" \
