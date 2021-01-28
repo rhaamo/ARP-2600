@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source "C:\\Users\\rhaam\\Documents\\GitHub\\ARP-2600\\4015 Sample and Hold\\4015 Sample and Hold.sch")
-    (date "28/01/2021 08:41:35")
+    (date "28/01/2021 11:19:35")
     (tool "Eeschema (5.1.9)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -113,7 +113,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 60A97E00))
     (comp (ref C3)
-      (value 20nF)
+      (value 20pF)
       (datasheet ~)
       (fields
         (field (name notes) ceramic))
