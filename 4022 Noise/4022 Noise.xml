@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>C:\Users\rhaam\Documents\GitHub\ARP-2600\4022 Noise\4022 Noise.sch</source>
-    <date>28/01/2021 08:48:09</date>
+    <date>28/01/2021 09:16:25</date>
     <tool>Eeschema (5.1.9)-1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -123,7 +123,7 @@
       <tstamp>6090BC9C</tstamp>
     </comp>
     <comp ref="C1">
-      <value>1.0</value>
+      <value>1uF 35V</value>
       <datasheet>~</datasheet>
       <fields>
         <field name="Notes">electrolytic or tantal</field>

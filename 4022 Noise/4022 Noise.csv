@@ -1,5 +1,5 @@
 Reference, Quantity, Value, Footprint, Datasheet, Notes
-C1 ,1,"1.0","","~","electrolytic or tantal"
+C1 ,1,"1uF 35V","","~","electrolytic or tantal"
 C3 ,1,"3.3nF","","~","plastic"
 C2 C4 C5 ,3,"10nF","","~","plastic"
 J2 J7 ,2,"GROUND","","~"
