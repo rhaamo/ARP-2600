@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>C:\Users\rhaam\Documents\GitHub\ARP-2600\Board 4\Board 4.sch</source>
-    <date>28/01/2021 08:46:48</date>
+    <date>28/01/2021 15:14:34</date>
     <tool>Eeschema (5.1.9)-1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -461,7 +461,7 @@
       <tstamp>60B1A3DA</tstamp>
     </comp>
     <comp ref="R181">
-      <value>1M LOG</value>
+      <value>100k LIN</value>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R_POT_TRIM" description="Trim-potentiometer"/>
       <sheetpath names="/" tstamps="/"/>
@@ -657,14 +657,14 @@
       <tstamp>60B90966</tstamp>
     </comp>
     <comp ref="R187">
-      <value>100k LOG</value>
+      <value>100k LIN</value>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R_POT_TRIM" description="Trim-potentiometer"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>60B90F3B</tstamp>
     </comp>
     <comp ref="R188">
-      <value>100k LOG</value>
+      <value>100k LIN</value>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R_POT_TRIM" description="Trim-potentiometer"/>
       <sheetpath names="/" tstamps="/"/>
@@ -776,7 +776,7 @@
       <tstamp>60C9F2DE</tstamp>
     </comp>
     <comp ref="C69">
-      <value>CP</value>
+      <value>1uF 35V</value>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="CP" description="Polarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>

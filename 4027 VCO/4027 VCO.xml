@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>C:\Users\rhaam\Documents\GitHub\ARP-2600\4027 VCO\4027 VCO.sch</source>
-    <date>28/01/2021 08:47:57</date>
+    <date>28/01/2021 11:53:26</date>
     <tool>Eeschema (5.1.9)-1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -225,10 +225,10 @@
       <tstamp>602705E2</tstamp>
     </comp>
     <comp ref="R4">
-      <value>1.84k 1%</value>
+      <value>1.87k - tempco - 3500ppm 1w 3%</value>
       <datasheet>~</datasheet>
       <fields>
-        <field name="Notes">1.87k 3% ?</field>
+        <field name="Notes">1.87k - tempco - 3500ppm 1w 3%</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>

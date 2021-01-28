@@ -3,6 +3,7 @@
 # Sources
 - Patroche who did a lot of reverse on the schematics and PCBs http://www.crazy-patroche.com/article-clonage-du-arp-2600-120886590.html
 - The 'full service manual'
+- https://www.synthpatchers.com/wp-content/uploads/2013/05/ARP-2600-Slider-Locations-and-Values.pdf
 
 # Status
 

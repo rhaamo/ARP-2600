@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source "C:\\Users\\rhaam\\Documents\\GitHub\\ARP-2600\\4027 VCO\\4027 VCO.sch")
-    (date "28/01/2021 08:42:29")
+    (date "28/01/2021 11:53:23")
     (tool "Eeschema (5.1.9)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -190,10 +190,10 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 602705E2))
     (comp (ref R4)
-      (value "1.84k 1%")
+      (value "1.87k - tempco - 3500ppm 1w 3%")
       (datasheet ~)
       (fields
-        (field (name Notes) "1.87k 3% ?"))
+        (field (name Notes) "1.87k - tempco - 3500ppm 1w 3%"))
       (libsource (lib Device) (part R) (description Resistor))
       (sheetpath (names /) (tstamps /))
       (tstamp 60270901))
