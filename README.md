@@ -6,23 +6,23 @@
 
 # Status
 
-|        board        | schematics | pcb | reviewed | tested |
+|        board        | schematics | reviewed | pcb | tested |
 | ------------------- | ---------- | --- | -------- | ------ |
-| 4014 ring modulator | yes        |     |          |        |
-| 4015 sample & hold  | yes |     |          |        |
-| 4019 VCA            | yes |     |          |        |
-| 4020 ADSR           | yes        |     |          |        |
-| 4022 Noise          | yes |     |          |        |
-| 4027 VCO            | yes        |     |          |        |
-| 4072 VCF            | yes        |     |          |        |
-| Board 1             | yes |     |          |        |
-| Board 2             | yes |     |          |        |
-| Board 2-1           | yes |     |          |        |
-| Board 3             | yes |     |          |        |
-| Board 4             | yes |     |          |        |
-| Board 4-1           | yes |     |          |        |
-| Board 5             | yes |     |          |        |
-| Board 5-1           | yes |     |          |        |
+| 4014 ring modulator | done        |     |          |        |
+| 4015 sample & hold  | done |     |          |        |
+| 4019 VCA            | done |     |          |        |
+| 4020 ADSR           | done        |     |          |        |
+| 4022 Noise          | done |     |          |        |
+| 4027 VCO            | done        |     |          |        |
+| 4072 VCF            | done        |     |          |        |
+| Board 1             | done |     |          |        |
+| Board 2             | done |     |          |        |
+| Board 2-1           | done |     |          |        |
+| Board 3             | done |     |          |        |
+| Board 4             | done |     |          |        |
+| Board 4-1           | done |     |          |        |
+| Board 5             | done |     |          |        |
+| Board 5-1           | done |     |          |        |
 
 # Notes
 ## All panel jacks
