@@ -15,12 +15,12 @@ _autosave-*
 fp-info-cache
 
 # Netlist files (exported from Eeschema)
-*.net
+###*.net
 
 # Autorouter files (exported from Pcbnew)
 *.dsn
 *.ses
 
 # Exported BOM files
-*.xml
-*.csv
+###*.xml
+###*.csv

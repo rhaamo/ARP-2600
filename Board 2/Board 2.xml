@@ -1,0 +1,2077 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\rhaam\Documents\GitHub\ARP-2600\Board 2\Board 2.sch</source>
+    <date>28/01/2021 08:47:24</date>
+    <tool>Eeschema (5.1.9)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Board 2.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="S4">
+      <value>AUD/LF</value>
+      <libsource lib="ARP_2600" part="SW_SLIDE_2_POS" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>600F3EB8</tstamp>
+    </comp>
+    <comp ref="Z8">
+      <value>LM301</value>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm101a-n.pdf</datasheet>
+      <libsource lib="Amplifier_Operational" part="LM301" description="Operational Amplifier, DIP-8/TO-99-8"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>600F5A01</tstamp>
+    </comp>
+    <comp ref="JPWR11">
+      <value>POSITIVE SUPPLY</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>600F80A3</tstamp>
+    </comp>
+    <comp ref="JPWR12">
+      <value>GND</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>600F8739</tstamp>
+    </comp>
+    <comp ref="JPWR13">
+      <value>NEGATIVE SUPPLY</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>600F8BB7</tstamp>
+    </comp>
+    <comp ref="C34">
+      <value>1uF 35v</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Notes">electrolytic</field>
+      </fields>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>600F932D</tstamp>
+    </comp>
+    <comp ref="JPWR21">
+      <value>POSITIVE SUPPLY</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>600FF4DE</tstamp>
+    </comp>
+    <comp ref="JPWR22">
+      <value>GND</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>600FF65E</tstamp>
+    </comp>
+    <comp ref="JPWR23">
+      <value>NEGATIVE SUPPLY</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>600FF668</tstamp>
+    </comp>
+    <comp ref="JPWR31">
+      <value>POSITIVE SUPPLY</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60104014</tstamp>
+    </comp>
+    <comp ref="JPWR32">
+      <value>GND</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6010423C</tstamp>
+    </comp>
+    <comp ref="JPWR33">
+      <value>NEGATIVE SUPPLY</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60104246</tstamp>
+    </comp>
+    <comp ref="C35">
+      <value>1uF 35v</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Notes">electrolytic</field>
+      </fields>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6010A467</tstamp>
+    </comp>
+    <comp ref="C36">
+      <value>1uF 35v</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Notes">electrolytic</field>
+      </fields>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6010A8D3</tstamp>
+    </comp>
+    <comp ref="C37">
+      <value>1uF 35v</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Notes">electrolytic</field>
+      </fields>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6010AE47</tstamp>
+    </comp>
+    <comp ref="C38">
+      <value>1uF 35v</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Notes">electrolytic</field>
+      </fields>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6010B335</tstamp>
+    </comp>
+    <comp ref="C39">
+      <value>1uF 35v</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Notes">electrolytic</field>
+      </fields>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6010B735</tstamp>
+    </comp>
+    <comp ref="C43">
+      <value>3.3pF 10%</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Notes">ceramic</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6010BFE6</tstamp>
+    </comp>
+    <comp ref="R50">
+      <value>1k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6010ED6F</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60110A45</tstamp>
+    </comp>
+    <comp ref="R51">
+      <value>3.9k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60111494</tstamp>
+    </comp>
+    <comp ref="E13">
+      <value>PJ301BM</value>
+      <datasheet>https://www.thonk.co.uk/shop/3-5mm-jacks/</datasheet>
+      <libsource lib="w_connector" part="PJ301BM" description="2-pin audio jack receptable (mono/TS connector) with switching contact"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60114998</tstamp>
+    </comp>
+    <comp ref="T13">
+      <value>OVPP</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60117B13</tstamp>
+    </comp>
+    <comp ref="R46">
+      <value>33k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60122749</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>100k LIN</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_POT_TRIM" description="Trim-potentiometer"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6012332D</tstamp>
+    </comp>
+    <comp ref="E14">
+      <value>PJ301BM</value>
+      <datasheet>https://www.thonk.co.uk/shop/3-5mm-jacks/</datasheet>
+      <libsource lib="w_connector" part="PJ301BM" description="2-pin audio jack receptable (mono/TS connector) with switching contact"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6012413C</tstamp>
+    </comp>
+    <comp ref="R106">
+      <value>1k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60125EA7</tstamp>
+    </comp>
+    <comp ref="R47">
+      <value>33k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6012731A</tstamp>
+    </comp>
+    <comp ref="R48">
+      <value>8.2k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60128F0B</tstamp>
+    </comp>
+    <comp ref="R49">
+      <value>1k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6012928C</tstamp>
+    </comp>
+    <comp ref="R45">
+      <value>6.8k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6012D0CA</tstamp>
+    </comp>
+    <comp ref="T14">
+      <value>RING MOD</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6013651B</tstamp>
+    </comp>
+    <comp ref="TVCO1-5">
+      <value>SAW. OUT</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60141E8A</tstamp>
+    </comp>
+    <comp ref="TVCO1-8">
+      <value>-15V</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60146897</tstamp>
+    </comp>
+    <comp ref="TVCO1-7">
+      <value>GND</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60147AA9</tstamp>
+    </comp>
+    <comp ref="TVCO1-6">
+      <value>+15V</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60147ED4</tstamp>
+    </comp>
+    <comp ref="TVCO1-19">
+      <value>TRIM INPUT</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60148A95</tstamp>
+    </comp>
+    <comp ref="TVCO1-2">
+      <value>CONT. INPUT</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601495A8</tstamp>
+    </comp>
+    <comp ref="TVCO1-18">
+      <value>L.F. CAP</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601490AC</tstamp>
+    </comp>
+    <comp ref="R52">
+      <value>100k LIN</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_POT_TRIM" description="Trim-potentiometer"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6019CFBB</tstamp>
+    </comp>
+    <comp ref="C40">
+      <value>0.015uF 10% plastic</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Notes">plastic</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6019FE5A</tstamp>
+    </comp>
+    <comp ref="R105">
+      <value>220k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601A6631</tstamp>
+    </comp>
+    <comp ref="R53">
+      <value>220k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601A77BA</tstamp>
+    </comp>
+    <comp ref="R41">
+      <value>100k LIN</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_POT_TRIM" description="Trim-potentiometer"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601BB7B2</tstamp>
+    </comp>
+    <comp ref="R42">
+      <value>100k LIN</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_POT_TRIM" description="Trim-potentiometer"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601BC522</tstamp>
+    </comp>
+    <comp ref="R43">
+      <value>150k 1%</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601BD212</tstamp>
+    </comp>
+    <comp ref="R44">
+      <value>3.3M</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601BD682</tstamp>
+    </comp>
+    <comp ref="E15">
+      <value>PJ301BM</value>
+      <datasheet>https://www.thonk.co.uk/shop/3-5mm-jacks/</datasheet>
+      <libsource lib="w_connector" part="PJ301BM" description="2-pin audio jack receptable (mono/TS connector) with switching contact"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601CC0CE</tstamp>
+    </comp>
+    <comp ref="S15">
+      <value>~</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601CC7BE</tstamp>
+    </comp>
+    <comp ref="CV-1">
+      <value>~</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601D618A</tstamp>
+    </comp>
+    <comp ref="R56">
+      <value>84.5k 1%</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601DC60E</tstamp>
+    </comp>
+    <comp ref="R60">
+      <value>25k LIN</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_POT_TRIM" description="Trim-potentiometer"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601DC8EB</tstamp>
+    </comp>
+    <comp ref="R57">
+      <value>100k 1%</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601DDAEB</tstamp>
+    </comp>
+    <comp ref="R61">
+      <value>100k LOG</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_POT_TRIM" description="Trim-potentiometer"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601DE231</tstamp>
+    </comp>
+    <comp ref="R58">
+      <value>220k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601E08DA</tstamp>
+    </comp>
+    <comp ref="R62">
+      <value>100k LOG</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_POT_TRIM" description="Trim-potentiometer"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601E1046</tstamp>
+    </comp>
+    <comp ref="R63">
+      <value>100k LOG</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_POT_TRIM" description="Trim-potentiometer"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601E105A</tstamp>
+    </comp>
+    <comp ref="R59">
+      <value>470k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601E1050</tstamp>
+    </comp>
+    <comp ref="T15">
+      <value>~</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60235740</tstamp>
+    </comp>
+    <comp ref="T16">
+      <value>~</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60235BA4</tstamp>
+    </comp>
+    <comp ref="T17">
+      <value>~</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60236051</tstamp>
+    </comp>
+    <comp ref="T18">
+      <value>~</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60236648</tstamp>
+    </comp>
+    <comp ref="E16">
+      <value>PJ301BM</value>
+      <datasheet>https://www.thonk.co.uk/shop/3-5mm-jacks/</datasheet>
+      <libsource lib="w_connector" part="PJ301BM" description="2-pin audio jack receptable (mono/TS connector) with switching contact"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6024A9E5</tstamp>
+    </comp>
+    <comp ref="E17">
+      <value>PJ301BM</value>
+      <datasheet>https://www.thonk.co.uk/shop/3-5mm-jacks/</datasheet>
+      <libsource lib="w_connector" part="PJ301BM" description="2-pin audio jack receptable (mono/TS connector) with switching contact"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6024EB28</tstamp>
+    </comp>
+    <comp ref="E18">
+      <value>PJ301BM</value>
+      <datasheet>https://www.thonk.co.uk/shop/3-5mm-jacks/</datasheet>
+      <libsource lib="w_connector" part="PJ301BM" description="2-pin audio jack receptable (mono/TS connector) with switching contact"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6024F47B</tstamp>
+    </comp>
+    <comp ref="S5">
+      <value>AUD/LF</value>
+      <libsource lib="ARP_2600" part="SW_SLIDE_2_POS" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602878C6</tstamp>
+    </comp>
+    <comp ref="TVCO2-5">
+      <value>SAW. OUT</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60288258</tstamp>
+    </comp>
+    <comp ref="TVCO2-8">
+      <value>-15V</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60288262</tstamp>
+    </comp>
+    <comp ref="TVCO2-7">
+      <value>GND</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6028826C</tstamp>
+    </comp>
+    <comp ref="TVCO2-6">
+      <value>+15V</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60288276</tstamp>
+    </comp>
+    <comp ref="TVCO2-19">
+      <value>TRIM INPUT</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60288280</tstamp>
+    </comp>
+    <comp ref="TVCO2-2">
+      <value>CONT. INPUT</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6028828A</tstamp>
+    </comp>
+    <comp ref="TVCO2-18">
+      <value>L.F. CAP</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60288299</tstamp>
+    </comp>
+    <comp ref="R68">
+      <value>100k LIN</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_POT_TRIM" description="Trim-potentiometer"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602882C4</tstamp>
+    </comp>
+    <comp ref="C41">
+      <value>0.015uF 10% plastic</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Notes">plastic</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602882E3</tstamp>
+    </comp>
+    <comp ref="R107">
+      <value>220k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602882F9</tstamp>
+    </comp>
+    <comp ref="R64">
+      <value>100k LIN</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_POT_TRIM" description="Trim-potentiometer"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60288323</tstamp>
+    </comp>
+    <comp ref="R66">
+      <value>100k LIN</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_POT_TRIM" description="Trim-potentiometer"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6028832D</tstamp>
+    </comp>
+    <comp ref="R65">
+      <value>150k 1%</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60288337</tstamp>
+    </comp>
+    <comp ref="R67">
+      <value>3.3M</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60288341</tstamp>
+    </comp>
+    <comp ref="E22">
+      <value>PJ301BM</value>
+      <datasheet>https://www.thonk.co.uk/shop/3-5mm-jacks/</datasheet>
+      <libsource lib="w_connector" part="PJ301BM" description="2-pin audio jack receptable (mono/TS connector) with switching contact"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60288381</tstamp>
+    </comp>
+    <comp ref="S22">
+      <value>~</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6028838B</tstamp>
+    </comp>
+    <comp ref="CV-2">
+      <value>~</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60288397</tstamp>
+    </comp>
+    <comp ref="R72">
+      <value>84.5k 1%</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602883A1</tstamp>
+    </comp>
+    <comp ref="R78">
+      <value>25k LIN</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_POT_TRIM" description="Trim-potentiometer"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602883AB</tstamp>
+    </comp>
+    <comp ref="R74">
+      <value>100k 1%</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602883B5</tstamp>
+    </comp>
+    <comp ref="R79">
+      <value>100k LOG</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_POT_TRIM" description="Trim-potentiometer"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602883BF</tstamp>
+    </comp>
+    <comp ref="R75">
+      <value>220k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602883C9</tstamp>
+    </comp>
+    <comp ref="R80">
+      <value>100k LOG</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_POT_TRIM" description="Trim-potentiometer"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602883D3</tstamp>
+    </comp>
+    <comp ref="R81">
+      <value>100k LOG</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_POT_TRIM" description="Trim-potentiometer"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602883DD</tstamp>
+    </comp>
+    <comp ref="R76">
+      <value>470k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602883E7</tstamp>
+    </comp>
+    <comp ref="T22">
+      <value>~</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60288407</tstamp>
+    </comp>
+    <comp ref="T23">
+      <value>~</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60288411</tstamp>
+    </comp>
+    <comp ref="T24">
+      <value>~</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6028841B</tstamp>
+    </comp>
+    <comp ref="T25">
+      <value>~</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60288425</tstamp>
+    </comp>
+    <comp ref="E23">
+      <value>PJ301BM</value>
+      <datasheet>https://www.thonk.co.uk/shop/3-5mm-jacks/</datasheet>
+      <libsource lib="w_connector" part="PJ301BM" description="2-pin audio jack receptable (mono/TS connector) with switching contact"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60288435</tstamp>
+    </comp>
+    <comp ref="E24">
+      <value>PJ301BM</value>
+      <datasheet>https://www.thonk.co.uk/shop/3-5mm-jacks/</datasheet>
+      <libsource lib="w_connector" part="PJ301BM" description="2-pin audio jack receptable (mono/TS connector) with switching contact"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60288441</tstamp>
+    </comp>
+    <comp ref="E25">
+      <value>PJ301BM</value>
+      <datasheet>https://www.thonk.co.uk/shop/3-5mm-jacks/</datasheet>
+      <libsource lib="w_connector" part="PJ301BM" description="2-pin audio jack receptable (mono/TS connector) with switching contact"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6028844D</tstamp>
+    </comp>
+    <comp ref="TVBD21-8">
+      <value>SIN OUT</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6014FA80</tstamp>
+    </comp>
+    <comp ref="TVBD21-7">
+      <value>PWM IN</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6014FA71</tstamp>
+    </comp>
+    <comp ref="TVBD21-9">
+      <value>TRIANGLE OUT</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6014FA67</tstamp>
+    </comp>
+    <comp ref="TVBD21-4">
+      <value>+15V</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6014FA5D</tstamp>
+    </comp>
+    <comp ref="TVBD21-5">
+      <value>GND</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6014FA53</tstamp>
+    </comp>
+    <comp ref="TVBD21-6">
+      <value>-15V</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6014FA49</tstamp>
+    </comp>
+    <comp ref="TVBD21-3">
+      <value>PULSE OUT</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6014F56D</tstamp>
+    </comp>
+    <comp ref="R71">
+      <value>220k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60288303</tstamp>
+    </comp>
+    <comp ref="T26">
+      <value>~</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602CF972</tstamp>
+    </comp>
+    <comp ref="E26">
+      <value>PJ301BM</value>
+      <datasheet>https://www.thonk.co.uk/shop/3-5mm-jacks/</datasheet>
+      <libsource lib="w_connector" part="PJ301BM" description="2-pin audio jack receptable (mono/TS connector) with switching contact"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602D05EE</tstamp>
+    </comp>
+    <comp ref="R82">
+      <value>100k LIN</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_POT_TRIM" description="Trim-potentiometer"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602DF8A5</tstamp>
+    </comp>
+    <comp ref="R77">
+      <value>120k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602E04BB</tstamp>
+    </comp>
+    <comp ref="TVBD21-1">
+      <value>PULSE WIDTH</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602F03D0</tstamp>
+    </comp>
+    <comp ref="TVBD21-2">
+      <value>SAWTOOTH IN</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6030BD5A</tstamp>
+    </comp>
+    <comp ref="R70">
+      <value>100k LIN</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_POT_TRIM" description="Trim-potentiometer"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6035E8FA</tstamp>
+    </comp>
+    <comp ref="R111">
+      <value>15k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60360C9C</tstamp>
+    </comp>
+    <comp ref="R108">
+      <value>1k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60363C58</tstamp>
+    </comp>
+    <comp ref="E19">
+      <value>PJ301BM</value>
+      <datasheet>https://www.thonk.co.uk/shop/3-5mm-jacks/</datasheet>
+      <libsource lib="w_connector" part="PJ301BM" description="2-pin audio jack receptable (mono/TS connector) with switching contact"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60365056</tstamp>
+    </comp>
+    <comp ref="T19">
+      <value>~</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60365D2F</tstamp>
+    </comp>
+    <comp ref="E20">
+      <value>PJ301BM</value>
+      <datasheet>https://www.thonk.co.uk/shop/3-5mm-jacks/</datasheet>
+      <libsource lib="w_connector" part="PJ301BM" description="2-pin audio jack receptable (mono/TS connector) with switching contact"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6037EC63</tstamp>
+    </comp>
+    <comp ref="T20">
+      <value>VCF</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6037F974</tstamp>
+    </comp>
+    <comp ref="E33">
+      <value>PJ301BM</value>
+      <datasheet>https://www.thonk.co.uk/shop/3-5mm-jacks/</datasheet>
+      <libsource lib="w_connector" part="PJ301BM" description="2-pin audio jack receptable (mono/TS connector) with switching contact"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60399B81</tstamp>
+    </comp>
+    <comp ref="E21">
+      <value>PJ301BM</value>
+      <datasheet>https://www.thonk.co.uk/shop/3-5mm-jacks/</datasheet>
+      <libsource lib="w_connector" part="PJ301BM" description="2-pin audio jack receptable (mono/TS connector) with switching contact"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>603ADD05</tstamp>
+    </comp>
+    <comp ref="T33-1">
+      <value>VCO 3</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>603AEA86</tstamp>
+    </comp>
+    <comp ref="T33">
+      <value>VCO 3</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60447C5A</tstamp>
+    </comp>
+    <comp ref="S6">
+      <value>AUD/LF</value>
+      <libsource lib="ARP_2600" part="SW_SLIDE_2_POS" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60495A2D</tstamp>
+    </comp>
+    <comp ref="Z9">
+      <value>LM301</value>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm101a-n.pdf</datasheet>
+      <libsource lib="Amplifier_Operational" part="LM301" description="Operational Amplifier, DIP-8/TO-99-8"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60496699</tstamp>
+    </comp>
+    <comp ref="C44">
+      <value>3.3pF 10%</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Notes">ceramic</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>604966A3</tstamp>
+    </comp>
+    <comp ref="R104">
+      <value>1k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>604966B3</tstamp>
+    </comp>
+    <comp ref="D8">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>604966BD</tstamp>
+    </comp>
+    <comp ref="R89">
+      <value>3.9k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>604966C7</tstamp>
+    </comp>
+    <comp ref="E28">
+      <value>PJ301BM</value>
+      <datasheet>https://www.thonk.co.uk/shop/3-5mm-jacks/</datasheet>
+      <libsource lib="w_connector" part="PJ301BM" description="2-pin audio jack receptable (mono/TS connector) with switching contact"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>604966F0</tstamp>
+    </comp>
+    <comp ref="R90">
+      <value>30.1k 1%</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60496715</tstamp>
+    </comp>
+    <comp ref="T27">
+      <value>~</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60496777</tstamp>
+    </comp>
+    <comp ref="TVCO3-5">
+      <value>SAW. OUT</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60496794</tstamp>
+    </comp>
+    <comp ref="TVCO3-8">
+      <value>-15V</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6049679E</tstamp>
+    </comp>
+    <comp ref="TVCO3-7">
+      <value>GND</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>604967A8</tstamp>
+    </comp>
+    <comp ref="TVCO3-6">
+      <value>+15V</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>604967B2</tstamp>
+    </comp>
+    <comp ref="TVCO3-19">
+      <value>TRIM INPUT</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>604967BC</tstamp>
+    </comp>
+    <comp ref="TVCO3-2">
+      <value>CONT. INPUT</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>604967C6</tstamp>
+    </comp>
+    <comp ref="TVCO3-18">
+      <value>L.F. CAP</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>604967D5</tstamp>
+    </comp>
+    <comp ref="R87">
+      <value>100k LIN</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_POT_TRIM" description="Trim-potentiometer"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>604967FF</tstamp>
+    </comp>
+    <comp ref="C42">
+      <value>0.015uF 10% plastic</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Notes">plastic</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6049681E</tstamp>
+    </comp>
+    <comp ref="R109">
+      <value>220k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60496834</tstamp>
+    </comp>
+    <comp ref="R94">
+      <value>220k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6049683E</tstamp>
+    </comp>
+    <comp ref="R83">
+      <value>100k LIN</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_POT_TRIM" description="Trim-potentiometer"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6049685E</tstamp>
+    </comp>
+    <comp ref="R85">
+      <value>100k LIN</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_POT_TRIM" description="Trim-potentiometer"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60496868</tstamp>
+    </comp>
+    <comp ref="R84">
+      <value>150k 1%</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60496872</tstamp>
+    </comp>
+    <comp ref="R86">
+      <value>3.3M</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6049687C</tstamp>
+    </comp>
+    <comp ref="E29">
+      <value>PJ301BM</value>
+      <datasheet>https://www.thonk.co.uk/shop/3-5mm-jacks/</datasheet>
+      <libsource lib="w_connector" part="PJ301BM" description="2-pin audio jack receptable (mono/TS connector) with switching contact"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>604968BC</tstamp>
+    </comp>
+    <comp ref="S29">
+      <value>~</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>604968C6</tstamp>
+    </comp>
+    <comp ref="CV-3">
+      <value>~</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>604968D2</tstamp>
+    </comp>
+    <comp ref="R95">
+      <value>84.5k 1%</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>604968DC</tstamp>
+    </comp>
+    <comp ref="R97">
+      <value>25k LIN</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_POT_TRIM" description="Trim-potentiometer"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>604968E6</tstamp>
+    </comp>
+    <comp ref="R98">
+      <value>100k 1%</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>604968F0</tstamp>
+    </comp>
+    <comp ref="R99">
+      <value>100k LOG</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_POT_TRIM" description="Trim-potentiometer"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>604968FA</tstamp>
+    </comp>
+    <comp ref="R100">
+      <value>220k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60496904</tstamp>
+    </comp>
+    <comp ref="R102">
+      <value>100k LOG</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_POT_TRIM" description="Trim-potentiometer"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6049690E</tstamp>
+    </comp>
+    <comp ref="R103">
+      <value>100k LOG</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_POT_TRIM" description="Trim-potentiometer"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60496918</tstamp>
+    </comp>
+    <comp ref="R101">
+      <value>470k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60496922</tstamp>
+    </comp>
+    <comp ref="T29">
+      <value>~</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60496942</tstamp>
+    </comp>
+    <comp ref="T30">
+      <value>~</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6049694C</tstamp>
+    </comp>
+    <comp ref="T31">
+      <value>~</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60496956</tstamp>
+    </comp>
+    <comp ref="T32">
+      <value>~</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60496960</tstamp>
+    </comp>
+    <comp ref="E30">
+      <value>PJ301BM</value>
+      <datasheet>https://www.thonk.co.uk/shop/3-5mm-jacks/</datasheet>
+      <libsource lib="w_connector" part="PJ301BM" description="2-pin audio jack receptable (mono/TS connector) with switching contact"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60496970</tstamp>
+    </comp>
+    <comp ref="E31">
+      <value>PJ301BM</value>
+      <datasheet>https://www.thonk.co.uk/shop/3-5mm-jacks/</datasheet>
+      <libsource lib="w_connector" part="PJ301BM" description="2-pin audio jack receptable (mono/TS connector) with switching contact"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6049697C</tstamp>
+    </comp>
+    <comp ref="E32">
+      <value>PJ301BM</value>
+      <datasheet>https://www.thonk.co.uk/shop/3-5mm-jacks/</datasheet>
+      <libsource lib="w_connector" part="PJ301BM" description="2-pin audio jack receptable (mono/TS connector) with switching contact"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60496988</tstamp>
+    </comp>
+    <comp ref="E27">
+      <value>PJ301BM</value>
+      <datasheet>https://www.thonk.co.uk/shop/3-5mm-jacks/</datasheet>
+      <libsource lib="w_connector" part="PJ301BM" description="2-pin audio jack receptable (mono/TS connector) with switching contact"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60557115</tstamp>
+    </comp>
+    <comp ref="R110">
+      <value>1k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6059DD8D</tstamp>
+    </comp>
+    <comp ref="D9">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>605FB12A</tstamp>
+    </comp>
+    <comp ref="R88">
+      <value>1M</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6067DA07</tstamp>
+    </comp>
+    <comp ref="R91">
+      <value>45.3k 1%</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>606B60E0</tstamp>
+    </comp>
+    <comp ref="R92">
+      <value>100k LIN</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_POT_TRIM" description="Trim-potentiometer"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>606EBA8D</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="ARP_2600" part="SW_SLIDE_2_POS">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SW_SLIDE_2_POS</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="6" name="~" type="passive"/>
+        <pin num="7" name="~" type="passive"/>
+        <pin num="8" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Amplifier_Operational" part="NE5534">
+      <aliases>
+        <alias>SA5534</alias>
+        <alias>LM101</alias>
+        <alias>LM201</alias>
+        <alias>LM301</alias>
+        <alias>AD797</alias>
+        <alias>LT1012</alias>
+      </aliases>
+      <description>Single Low-Noise Operational Amplifiers, DIP-8/SOIC-8</description>
+      <docs>http://www.ti.com/lit/ds/symlink/ne5534.pdf</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
+        <fp>TO?5*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">NE5534</field>
+      </fields>
+      <pins>
+        <pin num="1" name="BAL" type="input"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V-" type="power_in"/>
+        <pin num="5" name="COMP" type="input"/>
+        <pin num="6" name="~" type="output"/>
+        <pin num="7" name="V+" type="power_in"/>
+        <pin num="8" name="C/B" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x01">
+      <description>Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x01</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="CP">
+      <description>Polarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_POT_TRIM">
+      <description>Trim-potentiometer</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Potentiometer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">R_POT_TRIM</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="1N4148">
+      <aliases>
+        <alias>1N4448</alias>
+        <alias>1N4149</alias>
+        <alias>1N4151</alias>
+        <alias>1N914</alias>
+        <alias>BA243</alias>
+        <alias>BA244</alias>
+        <alias>BA282</alias>
+        <alias>BA283</alias>
+        <alias>BAV17</alias>
+        <alias>BAV18</alias>
+        <alias>BAV19</alias>
+        <alias>BAV20</alias>
+        <alias>BAV21</alias>
+        <alias>BAW75</alias>
+        <alias>BAW76</alias>
+        <alias>BAY93</alias>
+      </aliases>
+      <description>100V 0.15A standard switching diode, DO-35</description>
+      <docs>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</docs>
+      <footprints>
+        <fp>D*DO?35*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N4148</field>
+        <field name="Footprint">Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="w_connector" part="PJ301BM">
+      <description>2-pin audio jack receptable (mono/TS connector) with switching contact</description>
+      <docs>https://www.thonk.co.uk/shop/3-5mm-jacks/</docs>
+      <footprints>
+        <fp>PJ301BM</fp>
+        <fp>PJ301BM_OSH</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">PJ301BM</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="BiDi"/>
+        <pin num="2" name="~" type="BiDi"/>
+        <pin num="3" name="~" type="BiDi"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="ARP_2600">
+      <uri>C:\Users\rhaam\Documents\GitHub\ARP-2600\Board 2/../ARP 2600.lib</uri>
+    </library>
+    <library logical="Amplifier_Operational">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Amplifier_Operational.lib</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="Diode">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Diode.lib</uri>
+    </library>
+    <library logical="w_connector">
+      <uri>C:\Users\rhaam\Documents\GitHub\ARP-2600\Board 2/../westlicht-kicad-libs/w_connector.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="R64" pin="1"/>
+      <node ref="S5" pin="7"/>
+      <node ref="TVCO1-7" pin="1"/>
+      <node ref="TVCO2-7" pin="1"/>
+      <node ref="E13" pin="1"/>
+      <node ref="R51" pin="2"/>
+      <node ref="JPWR12" pin="1"/>
+      <node ref="E28" pin="1"/>
+      <node ref="C36" pin="2"/>
+      <node ref="C34" pin="2"/>
+      <node ref="R41" pin="1"/>
+      <node ref="S4" pin="7"/>
+      <node ref="S6" pin="7"/>
+      <node ref="TVBD21-5" pin="1"/>
+      <node ref="R83" pin="1"/>
+      <node ref="E27" pin="1"/>
+      <node ref="R92" pin="1"/>
+      <node ref="R91" pin="2"/>
+      <node ref="R49" pin="1"/>
+      <node ref="E14" pin="1"/>
+      <node ref="JPWR22" pin="1"/>
+      <node ref="TVCO3-7" pin="1"/>
+      <node ref="C38" pin="2"/>
+      <node ref="C39" pin="1"/>
+      <node ref="E33" pin="1"/>
+      <node ref="E21" pin="1"/>
+      <node ref="E19" pin="1"/>
+      <node ref="R111" pin="1"/>
+      <node ref="E20" pin="1"/>
+      <node ref="JPWR32" pin="1"/>
+      <node ref="R89" pin="2"/>
+      <node ref="C35" pin="1"/>
+      <node ref="C37" pin="1"/>
+    </net>
+    <net code="2" name="Net-(E20-Pad2)">
+      <node ref="E20" pin="2"/>
+    </net>
+    <net code="3" name="Net-(E33-Pad2)">
+      <node ref="E33" pin="2"/>
+    </net>
+    <net code="4" name="Net-(E33-Pad3)">
+      <node ref="TVBD21-9" pin="1"/>
+      <node ref="E33" pin="3"/>
+    </net>
+    <net code="5" name="Net-(E21-Pad2)">
+      <node ref="E21" pin="2"/>
+    </net>
+    <net code="6" name="-15V">
+      <node ref="R70" pin="3"/>
+      <node ref="R48" pin="1"/>
+      <node ref="R87" pin="1"/>
+      <node ref="R94" pin="1"/>
+      <node ref="R88" pin="2"/>
+      <node ref="R71" pin="1"/>
+      <node ref="TVBD21-6" pin="1"/>
+      <node ref="JPWR33" pin="1"/>
+      <node ref="TVCO3-8" pin="1"/>
+      <node ref="R85" pin="1"/>
+      <node ref="R68" pin="1"/>
+      <node ref="JPWR23" pin="1"/>
+      <node ref="Z9" pin="4"/>
+      <node ref="C39" pin="2"/>
+      <node ref="C37" pin="2"/>
+      <node ref="Z8" pin="4"/>
+      <node ref="JPWR13" pin="1"/>
+      <node ref="C35" pin="2"/>
+      <node ref="R42" pin="1"/>
+      <node ref="R66" pin="1"/>
+      <node ref="R52" pin="1"/>
+      <node ref="R53" pin="1"/>
+      <node ref="TVCO2-8" pin="1"/>
+      <node ref="TVCO1-8" pin="1"/>
+    </net>
+    <net code="7" name="Net-(R111-Pad2)">
+      <node ref="R111" pin="2"/>
+      <node ref="R70" pin="1"/>
+    </net>
+    <net code="8" name="Net-(E19-Pad3)">
+      <node ref="R108" pin="1"/>
+      <node ref="E19" pin="3"/>
+      <node ref="T19" pin="1"/>
+    </net>
+    <net code="9" name="Net-(E19-Pad2)">
+      <node ref="E19" pin="2"/>
+    </net>
+    <net code="10" name="Net-(E20-Pad3)">
+      <node ref="E20" pin="3"/>
+      <node ref="TVBD21-3" pin="1"/>
+      <node ref="T20" pin="1"/>
+    </net>
+    <net code="11" name="Net-(D8-Pad2)">
+      <node ref="D8" pin="2"/>
+      <node ref="R104" pin="1"/>
+    </net>
+    <net code="12" name="Net-(C44-Pad1)">
+      <node ref="C44" pin="1"/>
+      <node ref="Z9" pin="1"/>
+    </net>
+    <net code="13" name="Net-(C44-Pad2)">
+      <node ref="Z9" pin="8"/>
+      <node ref="C44" pin="2"/>
+    </net>
+    <net code="14" name="Net-(Z9-Pad5)">
+      <node ref="Z9" pin="5"/>
+    </net>
+    <net code="15" name="Net-(R104-Pad2)">
+      <node ref="Z9" pin="6"/>
+      <node ref="R104" pin="2"/>
+    </net>
+    <net code="16" name="+15V">
+      <node ref="R42" pin="3"/>
+      <node ref="R41" pin="3"/>
+      <node ref="R87" pin="3"/>
+      <node ref="R83" pin="3"/>
+      <node ref="TVCO3-6" pin="1"/>
+      <node ref="R85" pin="3"/>
+      <node ref="JPWR21" pin="1"/>
+      <node ref="JPWR31" pin="1"/>
+      <node ref="Z8" pin="7"/>
+      <node ref="JPWR11" pin="1"/>
+      <node ref="C34" pin="1"/>
+      <node ref="Z9" pin="7"/>
+      <node ref="C36" pin="1"/>
+      <node ref="C38" pin="1"/>
+      <node ref="R68" pin="3"/>
+      <node ref="R64" pin="3"/>
+      <node ref="R52" pin="3"/>
+      <node ref="R45" pin="2"/>
+      <node ref="R66" pin="3"/>
+      <node ref="TVCO2-6" pin="1"/>
+      <node ref="TVCO1-6" pin="1"/>
+      <node ref="TVBD21-4" pin="1"/>
+      <node ref="R92" pin="3"/>
+    </net>
+    <net code="17" name="Net-(E28-Pad2)">
+      <node ref="E28" pin="2"/>
+    </net>
+    <net code="18" name="Net-(D8-Pad1)">
+      <node ref="D8" pin="1"/>
+      <node ref="R89" pin="1"/>
+      <node ref="E28" pin="3"/>
+    </net>
+    <net code="19" name="Net-(S29-Pad1)">
+      <node ref="S6" pin="1"/>
+      <node ref="S29" pin="1"/>
+    </net>
+    <net code="20" name="Net-(E21-Pad3)">
+      <node ref="E21" pin="3"/>
+      <node ref="T33" pin="1"/>
+      <node ref="T33-1" pin="1"/>
+      <node ref="TVBD21-8" pin="1"/>
+    </net>
+    <net code="21" name="Net-(R70-Pad2)">
+      <node ref="TVBD21-1" pin="1"/>
+      <node ref="R70" pin="2"/>
+    </net>
+    <net code="22" name="Net-(CV-3-Pad1)">
+      <node ref="CV-3" pin="1"/>
+      <node ref="S6" pin="2"/>
+    </net>
+    <net code="23" name="Net-(S6-Pad3)">
+      <node ref="S6" pin="3"/>
+    </net>
+    <net code="24" name="Net-(R76-Pad2)">
+      <node ref="R76" pin="2"/>
+      <node ref="R81" pin="2"/>
+    </net>
+    <net code="25" name="Net-(R72-Pad2)">
+      <node ref="R72" pin="2"/>
+      <node ref="R78" pin="1"/>
+      <node ref="R78" pin="2"/>
+    </net>
+    <net code="26" name="Net-(R74-Pad2)">
+      <node ref="R79" pin="2"/>
+      <node ref="R74" pin="2"/>
+    </net>
+    <net code="27" name="Net-(R78-Pad3)">
+      <node ref="R78" pin="3"/>
+      <node ref="T22" pin="1"/>
+    </net>
+    <net code="28" name="Net-(R79-Pad3)">
+      <node ref="T23" pin="1"/>
+      <node ref="R79" pin="3"/>
+    </net>
+    <net code="29" name="Net-(R80-Pad3)">
+      <node ref="T24" pin="1"/>
+      <node ref="R80" pin="3"/>
+    </net>
+    <net code="30" name="Net-(R81-Pad3)">
+      <node ref="R81" pin="3"/>
+      <node ref="T25" pin="1"/>
+    </net>
+    <net code="31" name="Net-(R75-Pad2)">
+      <node ref="R80" pin="2"/>
+      <node ref="R75" pin="2"/>
+    </net>
+    <net code="32" name="Net-(E23-Pad1)">
+      <node ref="E23" pin="1"/>
+    </net>
+    <net code="33" name="Net-(E23-Pad2)">
+      <node ref="E23" pin="2"/>
+    </net>
+    <net code="34" name="Net-(E23-Pad3)">
+      <node ref="E23" pin="3"/>
+    </net>
+    <net code="35" name="Net-(E24-Pad1)">
+      <node ref="E24" pin="1"/>
+    </net>
+    <net code="36" name="Net-(E24-Pad2)">
+      <node ref="E24" pin="2"/>
+    </net>
+    <net code="37" name="Net-(E24-Pad3)">
+      <node ref="E24" pin="3"/>
+    </net>
+    <net code="38" name="Net-(S22-Pad1)">
+      <node ref="S22" pin="1"/>
+      <node ref="S5" pin="1"/>
+    </net>
+    <net code="39" name="Net-(S5-Pad3)">
+      <node ref="S5" pin="3"/>
+    </net>
+    <net code="40" name="Net-(CV-2-Pad1)">
+      <node ref="S5" pin="2"/>
+      <node ref="CV-2" pin="1"/>
+    </net>
+    <net code="41" name="Net-(E26-Pad1)">
+      <node ref="E26" pin="1"/>
+    </net>
+    <net code="42" name="Net-(R79-Pad1)">
+      <node ref="R81" pin="1"/>
+      <node ref="R80" pin="1"/>
+      <node ref="R79" pin="1"/>
+      <node ref="R82" pin="1"/>
+    </net>
+    <net code="43" name="Net-(R82-Pad3)">
+      <node ref="R82" pin="3"/>
+      <node ref="T26" pin="1"/>
+    </net>
+    <net code="44" name="Net-(R77-Pad1)">
+      <node ref="R77" pin="1"/>
+      <node ref="TVBD21-7" pin="1"/>
+    </net>
+    <net code="45" name="Net-(R77-Pad2)">
+      <node ref="R77" pin="2"/>
+      <node ref="R82" pin="2"/>
+    </net>
+    <net code="46" name="Net-(E26-Pad2)">
+      <node ref="E26" pin="2"/>
+    </net>
+    <net code="47" name="Net-(R108-Pad2)">
+      <node ref="TVCO2-5" pin="1"/>
+      <node ref="R108" pin="2"/>
+      <node ref="TVBD21-2" pin="1"/>
+    </net>
+    <net code="48" name="Net-(E25-Pad1)">
+      <node ref="E25" pin="1"/>
+    </net>
+    <net code="49" name="Net-(E25-Pad2)">
+      <node ref="E25" pin="2"/>
+    </net>
+    <net code="50" name="Net-(E25-Pad3)">
+      <node ref="E25" pin="3"/>
+    </net>
+    <net code="51" name="Net-(E22-Pad1)">
+      <node ref="E22" pin="1"/>
+    </net>
+    <net code="52" name="Net-(E26-Pad3)">
+      <node ref="E26" pin="3"/>
+    </net>
+    <net code="53" name="Net-(E30-Pad3)">
+      <node ref="E30" pin="3"/>
+    </net>
+    <net code="54" name="Net-(R99-Pad3)">
+      <node ref="T30" pin="1"/>
+      <node ref="R99" pin="3"/>
+    </net>
+    <net code="55" name="Net-(R102-Pad3)">
+      <node ref="T31" pin="1"/>
+      <node ref="R102" pin="3"/>
+    </net>
+    <net code="56" name="Net-(R103-Pad3)">
+      <node ref="R103" pin="3"/>
+      <node ref="T32" pin="1"/>
+    </net>
+    <net code="57" name="Net-(R100-Pad2)">
+      <node ref="R102" pin="2"/>
+      <node ref="R100" pin="2"/>
+    </net>
+    <net code="58" name="Net-(R101-Pad2)">
+      <node ref="R101" pin="2"/>
+      <node ref="R103" pin="2"/>
+    </net>
+    <net code="59" name="Net-(R97-Pad3)">
+      <node ref="R97" pin="3"/>
+      <node ref="T29" pin="1"/>
+    </net>
+    <net code="60" name="Net-(E30-Pad1)">
+      <node ref="E30" pin="1"/>
+    </net>
+    <net code="61" name="Net-(E30-Pad2)">
+      <node ref="E30" pin="2"/>
+    </net>
+    <net code="62" name="Net-(E31-Pad1)">
+      <node ref="E31" pin="1"/>
+    </net>
+    <net code="63" name="Net-(E31-Pad2)">
+      <node ref="E31" pin="2"/>
+    </net>
+    <net code="64" name="Net-(E31-Pad3)">
+      <node ref="E31" pin="3"/>
+    </net>
+    <net code="65" name="Net-(E32-Pad1)">
+      <node ref="E32" pin="1"/>
+    </net>
+    <net code="66" name="Net-(E32-Pad2)">
+      <node ref="E32" pin="2"/>
+    </net>
+    <net code="67" name="Net-(E32-Pad3)">
+      <node ref="E32" pin="3"/>
+    </net>
+    <net code="68" name="Net-(E29-Pad1)">
+      <node ref="E29" pin="1"/>
+    </net>
+    <net code="69" name="Net-(R95-Pad2)">
+      <node ref="R95" pin="2"/>
+      <node ref="R97" pin="1"/>
+      <node ref="R97" pin="2"/>
+    </net>
+    <net code="70" name="Net-(R98-Pad2)">
+      <node ref="R99" pin="2"/>
+      <node ref="R98" pin="2"/>
+    </net>
+    <net code="71" name="Net-(R102-Pad1)">
+      <node ref="R99" pin="1"/>
+      <node ref="R102" pin="1"/>
+      <node ref="R103" pin="1"/>
+    </net>
+    <net code="72" name="Net-(R90-Pad1)">
+      <node ref="R91" pin="1"/>
+      <node ref="R90" pin="1"/>
+      <node ref="Z9" pin="3"/>
+    </net>
+    <net code="73" name="Net-(R90-Pad2)">
+      <node ref="R90" pin="2"/>
+      <node ref="R92" pin="2"/>
+    </net>
+    <net code="74" name="Net-(E27-Pad2)">
+      <node ref="E27" pin="2"/>
+    </net>
+    <net code="75" name="Net-(D9-Pad1)">
+      <node ref="R88" pin="1"/>
+      <node ref="D9" pin="1"/>
+      <node ref="Z9" pin="2"/>
+    </net>
+    <net code="76" name="Net-(C42-Pad1)">
+      <node ref="S6" pin="6"/>
+      <node ref="C42" pin="1"/>
+    </net>
+    <net code="77" name="Net-(C42-Pad2)">
+      <node ref="TVCO3-18" pin="1"/>
+      <node ref="C42" pin="2"/>
+    </net>
+    <net code="78" name="Net-(R109-Pad2)">
+      <node ref="R109" pin="2"/>
+      <node ref="S6" pin="8"/>
+      <node ref="R94" pin="2"/>
+    </net>
+    <net code="79" name="Net-(R87-Pad2)">
+      <node ref="TVCO3-19" pin="1"/>
+      <node ref="R87" pin="2"/>
+    </net>
+    <net code="80" name="Net-(E27-Pad3)">
+      <node ref="R110" pin="1"/>
+      <node ref="T27" pin="1"/>
+      <node ref="E27" pin="3"/>
+    </net>
+    <net code="81" name="Net-(D9-Pad2)">
+      <node ref="TVCO3-5" pin="1"/>
+      <node ref="R110" pin="2"/>
+      <node ref="D9" pin="2"/>
+    </net>
+    <net code="82" name="Net-(E29-Pad2)">
+      <node ref="E29" pin="2"/>
+    </net>
+    <net code="83" name="Net-(E29-Pad3)">
+      <node ref="E29" pin="3"/>
+    </net>
+    <net code="84" name="Net-(R85-Pad2)">
+      <node ref="R86" pin="1"/>
+      <node ref="R85" pin="2"/>
+    </net>
+    <net code="85" name="Net-(R83-Pad2)">
+      <node ref="R84" pin="2"/>
+      <node ref="R83" pin="2"/>
+    </net>
+    <net code="86" name="Net-(R100-Pad1)">
+      <node ref="R98" pin="1"/>
+      <node ref="R109" pin="1"/>
+      <node ref="R84" pin="1"/>
+      <node ref="R100" pin="1"/>
+      <node ref="R95" pin="1"/>
+      <node ref="R86" pin="2"/>
+      <node ref="TVCO3-2" pin="1"/>
+      <node ref="R101" pin="1"/>
+    </net>
+    <net code="87" name="Net-(R46-Pad1)">
+      <node ref="R46" pin="1"/>
+      <node ref="Z8" pin="3"/>
+    </net>
+    <net code="88" name="Net-(R18-Pad2)">
+      <node ref="R46" pin="2"/>
+      <node ref="R18" pin="2"/>
+    </net>
+    <net code="89" name="Net-(R18-Pad3)">
+      <node ref="R18" pin="3"/>
+      <node ref="R45" pin="1"/>
+    </net>
+    <net code="90" name="Net-(E14-Pad2)">
+      <node ref="E14" pin="2"/>
+    </net>
+    <net code="91" name="Net-(R47-Pad2)">
+      <node ref="Z8" pin="2"/>
+      <node ref="R47" pin="2"/>
+    </net>
+    <net code="92" name="Net-(R18-Pad1)">
+      <node ref="R49" pin="2"/>
+      <node ref="R18" pin="1"/>
+      <node ref="R48" pin="2"/>
+    </net>
+    <net code="93" name="Net-(Z8-Pad5)">
+      <node ref="Z8" pin="5"/>
+    </net>
+    <net code="94" name="Net-(D7-Pad2)">
+      <node ref="D7" pin="2"/>
+      <node ref="R50" pin="1"/>
+    </net>
+    <net code="95" name="Net-(R50-Pad2)">
+      <node ref="Z8" pin="6"/>
+      <node ref="R50" pin="2"/>
+    </net>
+    <net code="96" name="Net-(E13-Pad2)">
+      <node ref="E13" pin="2"/>
+    </net>
+    <net code="97" name="Net-(D7-Pad1)">
+      <node ref="E13" pin="3"/>
+      <node ref="D7" pin="1"/>
+      <node ref="R51" pin="1"/>
+      <node ref="T13" pin="1"/>
+    </net>
+    <net code="98" name="Net-(R106-Pad2)">
+      <node ref="R106" pin="2"/>
+      <node ref="R47" pin="1"/>
+      <node ref="TVCO1-5" pin="1"/>
+    </net>
+    <net code="99" name="Net-(R52-Pad2)">
+      <node ref="TVCO1-19" pin="1"/>
+      <node ref="R52" pin="2"/>
+    </net>
+    <net code="100" name="Net-(C40-Pad2)">
+      <node ref="TVCO1-18" pin="1"/>
+      <node ref="C40" pin="2"/>
+    </net>
+    <net code="101" name="Net-(E14-Pad3)">
+      <node ref="T14" pin="1"/>
+      <node ref="E14" pin="3"/>
+      <node ref="R106" pin="1"/>
+    </net>
+    <net code="102" name="Net-(S4-Pad3)">
+      <node ref="S4" pin="3"/>
+    </net>
+    <net code="103" name="Net-(C40-Pad1)">
+      <node ref="S4" pin="6"/>
+      <node ref="C40" pin="1"/>
+    </net>
+    <net code="104" name="Net-(R105-Pad2)">
+      <node ref="R53" pin="2"/>
+      <node ref="R105" pin="2"/>
+      <node ref="S4" pin="8"/>
+    </net>
+    <net code="105" name="Net-(C43-Pad1)">
+      <node ref="Z8" pin="1"/>
+      <node ref="C43" pin="1"/>
+    </net>
+    <net code="106" name="Net-(C43-Pad2)">
+      <node ref="Z8" pin="8"/>
+      <node ref="C43" pin="2"/>
+    </net>
+    <net code="107" name="Net-(R68-Pad2)">
+      <node ref="TVCO2-19" pin="1"/>
+      <node ref="R68" pin="2"/>
+    </net>
+    <net code="108" name="Net-(C41-Pad2)">
+      <node ref="C41" pin="2"/>
+      <node ref="TVCO2-18" pin="1"/>
+    </net>
+    <net code="109" name="Net-(E18-Pad1)">
+      <node ref="E18" pin="1"/>
+    </net>
+    <net code="110" name="Net-(E17-Pad2)">
+      <node ref="E17" pin="2"/>
+    </net>
+    <net code="111" name="Net-(E17-Pad3)">
+      <node ref="E17" pin="3"/>
+    </net>
+    <net code="112" name="Net-(E18-Pad2)">
+      <node ref="E18" pin="2"/>
+    </net>
+    <net code="113" name="Net-(E18-Pad3)">
+      <node ref="E18" pin="3"/>
+    </net>
+    <net code="114" name="Net-(E15-Pad1)">
+      <node ref="E15" pin="1"/>
+    </net>
+    <net code="115" name="Net-(E16-Pad1)">
+      <node ref="E16" pin="1"/>
+    </net>
+    <net code="116" name="Net-(E17-Pad1)">
+      <node ref="E17" pin="1"/>
+    </net>
+    <net code="117" name="Net-(C41-Pad1)">
+      <node ref="S5" pin="6"/>
+      <node ref="C41" pin="1"/>
+    </net>
+    <net code="118" name="Net-(R107-Pad2)">
+      <node ref="S5" pin="8"/>
+      <node ref="R107" pin="2"/>
+      <node ref="R71" pin="2"/>
+    </net>
+    <net code="119" name="Net-(R66-Pad2)">
+      <node ref="R66" pin="2"/>
+      <node ref="R67" pin="1"/>
+    </net>
+    <net code="120" name="Net-(R107-Pad1)">
+      <node ref="R76" pin="1"/>
+      <node ref="TVCO2-2" pin="1"/>
+      <node ref="R72" pin="1"/>
+      <node ref="R75" pin="1"/>
+      <node ref="R74" pin="1"/>
+      <node ref="R65" pin="1"/>
+      <node ref="R107" pin="1"/>
+      <node ref="R67" pin="2"/>
+    </net>
+    <net code="121" name="Net-(E22-Pad2)">
+      <node ref="E22" pin="2"/>
+    </net>
+    <net code="122" name="Net-(E22-Pad3)">
+      <node ref="E22" pin="3"/>
+    </net>
+    <net code="123" name="Net-(R64-Pad2)">
+      <node ref="R64" pin="2"/>
+      <node ref="R65" pin="2"/>
+    </net>
+    <net code="124" name="Net-(R42-Pad2)">
+      <node ref="R42" pin="2"/>
+      <node ref="R44" pin="1"/>
+    </net>
+    <net code="125" name="Net-(E15-Pad2)">
+      <node ref="E15" pin="2"/>
+    </net>
+    <net code="126" name="Net-(E15-Pad3)">
+      <node ref="E15" pin="3"/>
+    </net>
+    <net code="127" name="Net-(CV-1-Pad1)">
+      <node ref="CV-1" pin="1"/>
+      <node ref="S4" pin="2"/>
+    </net>
+    <net code="128" name="Net-(R105-Pad1)">
+      <node ref="R44" pin="2"/>
+      <node ref="R105" pin="1"/>
+      <node ref="R59" pin="1"/>
+      <node ref="R58" pin="1"/>
+      <node ref="TVCO1-2" pin="1"/>
+      <node ref="R43" pin="1"/>
+      <node ref="R56" pin="1"/>
+      <node ref="R57" pin="1"/>
+    </net>
+    <net code="129" name="Net-(R56-Pad2)">
+      <node ref="R60" pin="1"/>
+      <node ref="R56" pin="2"/>
+      <node ref="R60" pin="2"/>
+    </net>
+    <net code="130" name="Net-(R57-Pad2)">
+      <node ref="R57" pin="2"/>
+      <node ref="R61" pin="2"/>
+    </net>
+    <net code="131" name="Net-(R41-Pad2)">
+      <node ref="R41" pin="2"/>
+      <node ref="R43" pin="2"/>
+    </net>
+    <net code="132" name="Net-(R62-Pad3)">
+      <node ref="T17" pin="1"/>
+      <node ref="R62" pin="3"/>
+    </net>
+    <net code="133" name="Net-(R61-Pad1)">
+      <node ref="R63" pin="1"/>
+      <node ref="R62" pin="1"/>
+      <node ref="R61" pin="1"/>
+    </net>
+    <net code="134" name="Net-(R60-Pad3)">
+      <node ref="R60" pin="3"/>
+      <node ref="T15" pin="1"/>
+    </net>
+    <net code="135" name="Net-(R61-Pad3)">
+      <node ref="R61" pin="3"/>
+      <node ref="T16" pin="1"/>
+    </net>
+    <net code="136" name="Net-(R63-Pad3)">
+      <node ref="T18" pin="1"/>
+      <node ref="R63" pin="3"/>
+    </net>
+    <net code="137" name="Net-(R58-Pad2)">
+      <node ref="R58" pin="2"/>
+      <node ref="R62" pin="2"/>
+    </net>
+    <net code="138" name="Net-(R59-Pad2)">
+      <node ref="R63" pin="2"/>
+      <node ref="R59" pin="2"/>
+    </net>
+    <net code="139" name="Net-(E16-Pad2)">
+      <node ref="E16" pin="2"/>
+    </net>
+    <net code="140" name="Net-(E16-Pad3)">
+      <node ref="E16" pin="3"/>
+    </net>
+    <net code="141" name="Net-(S15-Pad1)">
+      <node ref="S4" pin="1"/>
+      <node ref="S15" pin="1"/>
+    </net>
+  </nets>
+</export>

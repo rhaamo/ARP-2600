@@ -1,0 +1,1163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\rhaam\Documents\GitHub\ARP-2600\Board 4-1\Board 4-1.sch</source>
+    <date>28/01/2021 08:46:35</date>
+    <tool>Eeschema (5.1.9)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Board 4-1.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J1">
+      <value>~</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60FC14AE</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>~</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60FC1CDC</tstamp>
+    </comp>
+    <comp ref="A25">
+      <value>LM301</value>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm101a-n.pdf</datasheet>
+      <libsource lib="Amplifier_Operational" part="LM301" description="Operational Amplifier, DIP-8/TO-99-8"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60FC26EE</tstamp>
+    </comp>
+    <comp ref="C81">
+      <value>30pF</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Notes">ceramic</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60FC42B3</tstamp>
+    </comp>
+    <comp ref="C80">
+      <value>100pF</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Notes">ceramic</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60FC4A31</tstamp>
+    </comp>
+    <comp ref="R258">
+      <value>47k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60FC79F3</tstamp>
+    </comp>
+    <comp ref="J10">
+      <value>~</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60FC9D6A</tstamp>
+    </comp>
+    <comp ref="J9">
+      <value>~</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60FCAAA4</tstamp>
+    </comp>
+    <comp ref="J8">
+      <value>~</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60FCADE7</tstamp>
+    </comp>
+    <comp ref="A28">
+      <value>LM301</value>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm101a-n.pdf</datasheet>
+      <libsource lib="Amplifier_Operational" part="LM301" description="Operational Amplifier, DIP-8/TO-99-8"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60FCE158</tstamp>
+    </comp>
+    <comp ref="C91">
+      <value>30pF</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Notes">ceramic</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60FCFF24</tstamp>
+    </comp>
+    <comp ref="Q25">
+      <value>2N5127</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Q_NPN_ECB" description="NPN transistor, emitter/collector/base"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60FD2556</tstamp>
+    </comp>
+    <comp ref="Q27">
+      <value>2N5127</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Q_NPN_ECB" description="NPN transistor, emitter/collector/base"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60FD2E7E</tstamp>
+    </comp>
+    <comp ref="Q26">
+      <value>2N3906</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/2N3906-D.PDF</datasheet>
+      <libsource lib="Transistor_BJT" part="2N3906" description="-0.2A Ic, -40V Vce, Small Signal PNP Transistor, TO-92"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60FD3A74</tstamp>
+    </comp>
+    <comp ref="R276">
+      <value>220k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60FD5150</tstamp>
+    </comp>
+    <comp ref="C90">
+      <value>100pF</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60FD5618</tstamp>
+    </comp>
+    <comp ref="R273">
+      <value>100k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60FD5CBC</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>330pF</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Notes">ceramic</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60FD6207</tstamp>
+    </comp>
+    <comp ref="R272">
+      <value>100k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60FD75DD</tstamp>
+    </comp>
+    <comp ref="C89">
+      <value>0.01uF</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60FD7DDB</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>~</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60FE1D86</tstamp>
+    </comp>
+    <comp ref="D41">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60FEBBAF</tstamp>
+    </comp>
+    <comp ref="D40">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60FED167</tstamp>
+    </comp>
+    <comp ref="R275">
+      <value>10k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60FF3F4C</tstamp>
+    </comp>
+    <comp ref="R274">
+      <value>1k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60FF44FE</tstamp>
+    </comp>
+    <comp ref="R279">
+      <value>470R</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60FF47E3</tstamp>
+    </comp>
+    <comp ref="R280">
+      <value>10R</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60FF9F53</tstamp>
+    </comp>
+    <comp ref="R282">
+      <value>10R</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60FFA73B</tstamp>
+    </comp>
+    <comp ref="R281">
+      <value>100R 1/2W</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60FFF8A3</tstamp>
+    </comp>
+    <comp ref="J-A-1">
+      <value>~</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61000EEE</tstamp>
+    </comp>
+    <comp ref="J-B-1">
+      <value>~</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61003489</tstamp>
+    </comp>
+    <comp ref="J-C-1">
+      <value>~</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>610057C2</tstamp>
+    </comp>
+    <comp ref="A30">
+      <value>LM301</value>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm101a-n.pdf</datasheet>
+      <libsource lib="Amplifier_Operational" part="LM301" description="Operational Amplifier, DIP-8/TO-99-8"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>610064B5</tstamp>
+    </comp>
+    <comp ref="C95">
+      <value>30pF</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Notes">ceramic</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61008E38</tstamp>
+    </comp>
+    <comp ref="C96">
+      <value>10nF</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Notes">plastic</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61010FB6</tstamp>
+    </comp>
+    <comp ref="R289">
+      <value>2.2M</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61011C06</tstamp>
+    </comp>
+    <comp ref="R288">
+      <value>2.2M</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6101E707</tstamp>
+    </comp>
+    <comp ref="C94">
+      <value>100nF</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Notes">plastic</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6101FDE8</tstamp>
+    </comp>
+    <comp ref="R287">
+      <value>22k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6101EC7E</tstamp>
+    </comp>
+    <comp ref="A31">
+      <value>LM301</value>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm101a-n.pdf</datasheet>
+      <libsource lib="Amplifier_Operational" part="LM301" description="Operational Amplifier, DIP-8/TO-99-8"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6104CF10</tstamp>
+    </comp>
+    <comp ref="C98">
+      <value>30pF</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Notes">ceramic</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6105086D</tstamp>
+    </comp>
+    <comp ref="A27">
+      <value>LM301</value>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm101a-n.pdf</datasheet>
+      <libsource lib="Amplifier_Operational" part="LM301" description="Operational Amplifier, DIP-8/TO-99-8"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6105555A</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>30pF</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Notes">ceramic</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61055A09</tstamp>
+    </comp>
+    <comp ref="J11">
+      <value>~</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61061CF0</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>~</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61066590</tstamp>
+    </comp>
+    <comp ref="J7">
+      <value>~</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61066AE9</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>~</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61066E68</tstamp>
+    </comp>
+    <comp ref="J6">
+      <value>~</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61067355</tstamp>
+    </comp>
+    <comp ref="J12">
+      <value>~</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61067891</tstamp>
+    </comp>
+    <comp ref="C99">
+      <value>50pF</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Notes">ceramic</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6106858F</tstamp>
+    </comp>
+    <comp ref="R293">
+      <value>470k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61068A28</tstamp>
+    </comp>
+    <comp ref="R292">
+      <value>100k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61080B58</tstamp>
+    </comp>
+    <comp ref="R295">
+      <value>1k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61088091</tstamp>
+    </comp>
+    <comp ref="R291">
+      <value>470k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61097033</tstamp>
+    </comp>
+    <comp ref="C97">
+      <value>50pF</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Notes">ceramic</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61097577</tstamp>
+    </comp>
+    <comp ref="R290">
+      <value>100k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>610AF2E2</tstamp>
+    </comp>
+    <comp ref="R268">
+      <value>220k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>610B8276</tstamp>
+    </comp>
+    <comp ref="R265">
+      <value>68k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>610C589F</tstamp>
+    </comp>
+    <comp ref="R266">
+      <value>68k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>610C5D3A</tstamp>
+    </comp>
+    <comp ref="C85">
+      <value>50pF</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Notes">ceramic</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>610C60C2</tstamp>
+    </comp>
+    <comp ref="C104">
+      <value>20pF</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Notes"> </field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>610D5196</tstamp>
+    </comp>
+    <comp ref="C86">
+      <value>10pF</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6110FF49</tstamp>
+    </comp>
+    <comp ref="R269">
+      <value>180k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61110480</tstamp>
+    </comp>
+    <comp ref="J15">
+      <value>~</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6112B4ED</tstamp>
+    </comp>
+    <comp ref="J17">
+      <value>~</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6117D401</tstamp>
+    </comp>
+    <comp ref="R256">
+      <value>100k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6117DC1D</tstamp>
+    </comp>
+    <comp ref="A29">
+      <value>LM301</value>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm101a-n.pdf</datasheet>
+      <libsource lib="Amplifier_Operational" part="LM301" description="Operational Amplifier, DIP-8/TO-99-8"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61193E19</tstamp>
+    </comp>
+    <comp ref="C93">
+      <value>30pF</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Notes">ceramic</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>611944E4</tstamp>
+    </comp>
+    <comp ref="A26">
+      <value>LM301</value>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm101a-n.pdf</datasheet>
+      <libsource lib="Amplifier_Operational" part="LM301" description="Operational Amplifier, DIP-8/TO-99-8"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>611944F4</tstamp>
+    </comp>
+    <comp ref="C84">
+      <value>10pF</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>611944FF</tstamp>
+    </comp>
+    <comp ref="R267">
+      <value>220k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6119459A</tstamp>
+    </comp>
+    <comp ref="R283">
+      <value>470k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>611945A8</tstamp>
+    </comp>
+    <comp ref="C92">
+      <value>50pF</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Notes">ceramic</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>611945B2</tstamp>
+    </comp>
+    <comp ref="R260">
+      <value>220k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>611945EA</tstamp>
+    </comp>
+    <comp ref="R261">
+      <value>68k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>611945F4</tstamp>
+    </comp>
+    <comp ref="C82">
+      <value>50pF</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Notes">ceramic</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>611945FE</tstamp>
+    </comp>
+    <comp ref="C100">
+      <value>20pF</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Notes"> </field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61194618</tstamp>
+    </comp>
+    <comp ref="C83">
+      <value>10pF</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6119462E</tstamp>
+    </comp>
+    <comp ref="R262">
+      <value>100k</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Notes">schematics says 180k</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61194638</tstamp>
+    </comp>
+    <comp ref="J16">
+      <value>~</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6119464D</tstamp>
+    </comp>
+    <comp ref="J14">
+      <value>~</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6119465A</tstamp>
+    </comp>
+    <comp ref="R255">
+      <value>100k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61194664</tstamp>
+    </comp>
+    <comp ref="R285">
+      <value>100k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>611D35A3</tstamp>
+    </comp>
+    <comp ref="J13">
+      <value>~</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61219793</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Amplifier_Operational" part="NE5534">
+      <aliases>
+        <alias>SA5534</alias>
+        <alias>LM101</alias>
+        <alias>LM201</alias>
+        <alias>LM301</alias>
+        <alias>AD797</alias>
+        <alias>LT1012</alias>
+      </aliases>
+      <description>Single Low-Noise Operational Amplifiers, DIP-8/SOIC-8</description>
+      <docs>http://www.ti.com/lit/ds/symlink/ne5534.pdf</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
+        <fp>TO?5*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">NE5534</field>
+      </fields>
+      <pins>
+        <pin num="1" name="BAL" type="input"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V-" type="power_in"/>
+        <pin num="5" name="COMP" type="input"/>
+        <pin num="6" name="~" type="output"/>
+        <pin num="7" name="V+" type="power_in"/>
+        <pin num="8" name="C/B" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x01">
+      <description>Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x01</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Q_NPN_ECB">
+      <description>NPN transistor, emitter/collector/base</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NPN_ECB</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E" type="passive"/>
+        <pin num="2" name="C" type="passive"/>
+        <pin num="3" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="1N4148">
+      <aliases>
+        <alias>1N4448</alias>
+        <alias>1N4149</alias>
+        <alias>1N4151</alias>
+        <alias>1N914</alias>
+        <alias>BA243</alias>
+        <alias>BA244</alias>
+        <alias>BA282</alias>
+        <alias>BA283</alias>
+        <alias>BAV17</alias>
+        <alias>BAV18</alias>
+        <alias>BAV19</alias>
+        <alias>BAV20</alias>
+        <alias>BAV21</alias>
+        <alias>BAW75</alias>
+        <alias>BAW76</alias>
+        <alias>BAY93</alias>
+      </aliases>
+      <description>100V 0.15A standard switching diode, DO-35</description>
+      <docs>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</docs>
+      <footprints>
+        <fp>D*DO?35*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N4148</field>
+        <field name="Footprint">Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_BJT" part="2N3906">
+      <aliases>
+        <alias>2N3905</alias>
+      </aliases>
+      <description>-0.2A Ic, -40V Vce, Small Signal PNP Transistor, TO-92</description>
+      <docs>https://www.onsemi.com/pub/Collateral/2N3906-D.PDF</docs>
+      <footprints>
+        <fp>TO?92*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">2N3906</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-92_Inline</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E" type="passive"/>
+        <pin num="2" name="B" type="input"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Amplifier_Operational">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Amplifier_Operational.lib</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="Diode">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Diode.lib</uri>
+    </library>
+    <library logical="Transistor_BJT">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Transistor_BJT.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="J9" pin="1"/>
+      <node ref="C96" pin="2"/>
+      <node ref="R289" pin="2"/>
+      <node ref="C8" pin="1"/>
+      <node ref="R290" pin="2"/>
+      <node ref="C99" pin="1"/>
+      <node ref="R293" pin="2"/>
+      <node ref="C82" pin="1"/>
+      <node ref="A29" pin="3"/>
+      <node ref="R261" pin="1"/>
+      <node ref="J-B-1" pin="1"/>
+      <node ref="R275" pin="2"/>
+      <node ref="A28" pin="3"/>
+      <node ref="C85" pin="1"/>
+      <node ref="R266" pin="1"/>
+      <node ref="A25" pin="3"/>
+    </net>
+    <net code="2" name="Net-(J12-Pad1)">
+      <node ref="R265" pin="1"/>
+      <node ref="J12" pin="1"/>
+    </net>
+    <net code="3" name="Net-(A27-Pad3)">
+      <node ref="A27" pin="3"/>
+      <node ref="R265" pin="2"/>
+      <node ref="C104" pin="2"/>
+      <node ref="R266" pin="2"/>
+      <node ref="C85" pin="2"/>
+    </net>
+    <net code="4" name="Net-(J6-Pad1)">
+      <node ref="J6" pin="1"/>
+      <node ref="R268" pin="1"/>
+    </net>
+    <net code="5" name="Net-(A27-Pad2)">
+      <node ref="A27" pin="2"/>
+      <node ref="R268" pin="2"/>
+      <node ref="C86" pin="2"/>
+      <node ref="R256" pin="1"/>
+      <node ref="R269" pin="1"/>
+      <node ref="C104" pin="1"/>
+    </net>
+    <net code="6" name="Net-(A29-Pad1)">
+      <node ref="C93" pin="1"/>
+      <node ref="A29" pin="1"/>
+    </net>
+    <net code="7" name="Net-(J17-Pad1)">
+      <node ref="R256" pin="2"/>
+      <node ref="J17" pin="1"/>
+    </net>
+    <net code="8" name="Net-(A27-Pad6)">
+      <node ref="J15" pin="1"/>
+      <node ref="R269" pin="2"/>
+      <node ref="A27" pin="6"/>
+      <node ref="C86" pin="1"/>
+    </net>
+    <net code="9" name="-15V">
+      <node ref="J8" pin="1"/>
+      <node ref="A31" pin="4"/>
+      <node ref="A25" pin="4"/>
+      <node ref="A26" pin="4"/>
+      <node ref="A27" pin="4"/>
+      <node ref="A29" pin="4"/>
+      <node ref="R279" pin="1"/>
+      <node ref="R274" pin="1"/>
+      <node ref="Q26" pin="3"/>
+      <node ref="A30" pin="4"/>
+      <node ref="A28" pin="4"/>
+    </net>
+    <net code="10" name="Net-(A31-Pad3)">
+      <node ref="C99" pin="2"/>
+      <node ref="R292" pin="2"/>
+      <node ref="R293" pin="1"/>
+      <node ref="A31" pin="3"/>
+    </net>
+    <net code="11" name="Net-(J4-Pad1)">
+      <node ref="J4" pin="1"/>
+      <node ref="R295" pin="1"/>
+    </net>
+    <net code="12" name="Net-(J7-Pad1)">
+      <node ref="J7" pin="1"/>
+      <node ref="R292" pin="1"/>
+    </net>
+    <net code="13" name="Net-(J5-Pad1)">
+      <node ref="R285" pin="2"/>
+      <node ref="J5" pin="1"/>
+    </net>
+    <net code="14" name="+15V">
+      <node ref="A30" pin="7"/>
+      <node ref="Q27" pin="2"/>
+      <node ref="A26" pin="7"/>
+      <node ref="J10" pin="1"/>
+      <node ref="A29" pin="7"/>
+      <node ref="A25" pin="7"/>
+      <node ref="A27" pin="7"/>
+      <node ref="A31" pin="7"/>
+      <node ref="A28" pin="7"/>
+    </net>
+    <net code="15" name="Net-(A27-Pad1)">
+      <node ref="A27" pin="1"/>
+      <node ref="C9" pin="1"/>
+    </net>
+    <net code="16" name="Net-(A27-Pad8)">
+      <node ref="A27" pin="8"/>
+      <node ref="C9" pin="2"/>
+    </net>
+    <net code="17" name="Net-(A27-Pad5)">
+      <node ref="A27" pin="5"/>
+    </net>
+    <net code="18" name="Net-(A31-Pad2)">
+      <node ref="R291" pin="1"/>
+      <node ref="R290" pin="1"/>
+      <node ref="A31" pin="2"/>
+      <node ref="C97" pin="2"/>
+    </net>
+    <net code="19" name="Net-(A31-Pad6)">
+      <node ref="R291" pin="2"/>
+      <node ref="C97" pin="1"/>
+      <node ref="A31" pin="6"/>
+      <node ref="R295" pin="2"/>
+    </net>
+    <net code="20" name="Net-(A26-Pad3)">
+      <node ref="A26" pin="3"/>
+      <node ref="C100" pin="2"/>
+      <node ref="C82" pin="2"/>
+      <node ref="R261" pin="2"/>
+      <node ref="R260" pin="2"/>
+    </net>
+    <net code="21" name="Net-(A26-Pad6)">
+      <node ref="J16" pin="1"/>
+      <node ref="A26" pin="6"/>
+      <node ref="C83" pin="1"/>
+      <node ref="R262" pin="2"/>
+    </net>
+    <net code="22" name="Net-(J13-Pad1)">
+      <node ref="J13" pin="1"/>
+      <node ref="R260" pin="1"/>
+    </net>
+    <net code="23" name="Net-(A26-Pad2)">
+      <node ref="R262" pin="1"/>
+      <node ref="C100" pin="1"/>
+      <node ref="R255" pin="1"/>
+      <node ref="R267" pin="2"/>
+      <node ref="A26" pin="2"/>
+      <node ref="C83" pin="2"/>
+    </net>
+    <net code="24" name="Net-(J14-Pad1)">
+      <node ref="J14" pin="1"/>
+      <node ref="R255" pin="2"/>
+    </net>
+    <net code="25" name="Net-(A26-Pad1)">
+      <node ref="A26" pin="1"/>
+      <node ref="C84" pin="1"/>
+    </net>
+    <net code="26" name="Net-(A26-Pad8)">
+      <node ref="C84" pin="2"/>
+      <node ref="A26" pin="8"/>
+    </net>
+    <net code="27" name="Net-(A26-Pad5)">
+      <node ref="A26" pin="5"/>
+    </net>
+    <net code="28" name="Net-(A29-Pad8)">
+      <node ref="C93" pin="2"/>
+      <node ref="A29" pin="8"/>
+    </net>
+    <net code="29" name="Net-(A29-Pad5)">
+      <node ref="A29" pin="5"/>
+    </net>
+    <net code="30" name="Net-(A29-Pad2)">
+      <node ref="R285" pin="1"/>
+      <node ref="R283" pin="1"/>
+      <node ref="A29" pin="2"/>
+      <node ref="C92" pin="2"/>
+    </net>
+    <net code="31" name="Net-(A29-Pad6)">
+      <node ref="A29" pin="6"/>
+      <node ref="R267" pin="1"/>
+      <node ref="R283" pin="2"/>
+      <node ref="C92" pin="1"/>
+    </net>
+    <net code="32" name="Net-(Q25-Pad1)">
+      <node ref="R279" pin="2"/>
+      <node ref="Q25" pin="1"/>
+    </net>
+    <net code="33" name="Net-(Q25-Pad3)">
+      <node ref="R275" pin="1"/>
+      <node ref="R274" pin="2"/>
+      <node ref="Q25" pin="3"/>
+    </net>
+    <net code="34" name="Net-(Q27-Pad1)">
+      <node ref="R282" pin="2"/>
+      <node ref="Q27" pin="1"/>
+    </net>
+    <net code="35" name="Net-(Q26-Pad1)">
+      <node ref="R280" pin="1"/>
+      <node ref="Q26" pin="1"/>
+    </net>
+    <net code="36" name="Net-(A28-Pad5)">
+      <node ref="A28" pin="5"/>
+    </net>
+    <net code="37" name="Net-(A28-Pad1)">
+      <node ref="A28" pin="1"/>
+      <node ref="C91" pin="1"/>
+    </net>
+    <net code="38" name="Net-(A28-Pad8)">
+      <node ref="C91" pin="2"/>
+      <node ref="A28" pin="8"/>
+    </net>
+    <net code="39" name="Net-(A28-Pad2)">
+      <node ref="R273" pin="1"/>
+      <node ref="C90" pin="2"/>
+      <node ref="R276" pin="2"/>
+      <node ref="A28" pin="2"/>
+    </net>
+    <net code="40" name="Net-(C8-Pad2)">
+      <node ref="C8" pin="2"/>
+      <node ref="R272" pin="2"/>
+      <node ref="R273" pin="2"/>
+    </net>
+    <net code="41" name="Net-(C89-Pad2)">
+      <node ref="R272" pin="1"/>
+      <node ref="C89" pin="2"/>
+    </net>
+    <net code="42" name="Net-(C89-Pad1)">
+      <node ref="C89" pin="1"/>
+      <node ref="J2" pin="1"/>
+    </net>
+    <net code="43" name="Net-(A25-Pad8)">
+      <node ref="C81" pin="2"/>
+      <node ref="A25" pin="8"/>
+    </net>
+    <net code="44" name="Net-(A25-Pad2)">
+      <node ref="A25" pin="2"/>
+      <node ref="C80" pin="2"/>
+      <node ref="J1" pin="1"/>
+      <node ref="R258" pin="2"/>
+    </net>
+    <net code="45" name="Net-(A25-Pad5)">
+      <node ref="A25" pin="5"/>
+    </net>
+    <net code="46" name="Net-(A25-Pad1)">
+      <node ref="A25" pin="1"/>
+      <node ref="C81" pin="1"/>
+    </net>
+    <net code="47" name="Net-(A25-Pad6)">
+      <node ref="C80" pin="1"/>
+      <node ref="J3" pin="1"/>
+      <node ref="A25" pin="6"/>
+      <node ref="R258" pin="1"/>
+    </net>
+    <net code="48" name="Net-(A30-Pad3)">
+      <node ref="C96" pin="1"/>
+      <node ref="R289" pin="1"/>
+      <node ref="A30" pin="3"/>
+    </net>
+    <net code="49" name="Net-(A30-Pad6)">
+      <node ref="A30" pin="6"/>
+      <node ref="J11" pin="1"/>
+      <node ref="R288" pin="1"/>
+    </net>
+    <net code="50" name="Net-(C94-Pad1)">
+      <node ref="R287" pin="2"/>
+      <node ref="C94" pin="1"/>
+    </net>
+    <net code="51" name="Net-(C94-Pad2)">
+      <node ref="J-C-1" pin="1"/>
+      <node ref="C94" pin="2"/>
+    </net>
+    <net code="52" name="Net-(A30-Pad5)">
+      <node ref="A30" pin="5"/>
+    </net>
+    <net code="53" name="Net-(A30-Pad1)">
+      <node ref="A30" pin="1"/>
+      <node ref="C95" pin="1"/>
+    </net>
+    <net code="54" name="Net-(A30-Pad8)">
+      <node ref="A30" pin="8"/>
+      <node ref="C95" pin="2"/>
+    </net>
+    <net code="55" name="Net-(A31-Pad5)">
+      <node ref="A31" pin="5"/>
+    </net>
+    <net code="56" name="Net-(A31-Pad1)">
+      <node ref="C98" pin="1"/>
+      <node ref="A31" pin="1"/>
+    </net>
+    <net code="57" name="Net-(A31-Pad8)">
+      <node ref="A31" pin="8"/>
+      <node ref="C98" pin="2"/>
+    </net>
+    <net code="58" name="Net-(A30-Pad2)">
+      <node ref="A30" pin="2"/>
+      <node ref="R287" pin="1"/>
+      <node ref="R288" pin="2"/>
+    </net>
+    <net code="59" name="Net-(D40-Pad1)">
+      <node ref="Q25" pin="2"/>
+      <node ref="D40" pin="1"/>
+      <node ref="Q26" pin="2"/>
+    </net>
+    <net code="60" name="Net-(A28-Pad6)">
+      <node ref="Q27" pin="3"/>
+      <node ref="D41" pin="2"/>
+      <node ref="A28" pin="6"/>
+    </net>
+    <net code="61" name="Net-(C90-Pad1)">
+      <node ref="R280" pin="2"/>
+      <node ref="R282" pin="1"/>
+      <node ref="C90" pin="1"/>
+      <node ref="R281" pin="2"/>
+      <node ref="R276" pin="1"/>
+      <node ref="D40" pin="2"/>
+      <node ref="D41" pin="1"/>
+    </net>
+    <net code="62" name="Net-(J-A-1-Pad1)">
+      <node ref="R281" pin="1"/>
+      <node ref="J-A-1" pin="1"/>
+    </net>
+  </nets>
+</export>

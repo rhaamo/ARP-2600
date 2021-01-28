@@ -1,0 +1,828 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\rhaam\Documents\GitHub\ARP-2600\4014 Ring Modulator\4014 Ring Modulator.sch</source>
+    <date>28/01/2021 08:28:14</date>
+    <tool>Eeschema (5.1.9)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>4014 Ring Modulator.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C7">
+      <value>0.01uF</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>600D2D67</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>0.01uF</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>600D3430</tstamp>
+    </comp>
+    <comp ref="J6">
+      <value>POSITIVE SUPPLY</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>600D5181</tstamp>
+    </comp>
+    <comp ref="J7">
+      <value>GROUND</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>600D6049</tstamp>
+    </comp>
+    <comp ref="J8">
+      <value>NEGATIVE SUPPLY</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>600D6440</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>X INPUT</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>600D6FF4</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Y INPUT</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>600D79E1</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>4.7k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>600D8809</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>2N3906</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="orig value">TZ-581</field>
+      </fields>
+      <libsource lib="Device" part="Q_PNP_EBC" description="PNP transistor, emitter/base/collector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>600D9AB4</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>2N3906</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="orig value">TZ-581</field>
+      </fields>
+      <libsource lib="Device" part="Q_PNP_EBC" description="PNP transistor, emitter/base/collector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>600DB490</tstamp>
+    </comp>
+    <comp ref="CR3">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/85622/1n914.pdf</datasheet>
+      <fields>
+        <field name="orig value">1N914</field>
+      </fields>
+      <libsource lib="Diode" part="1N914" description="100V 0.3A Small Signal Fast Switching Diode, DO-35"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>600DC86A</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>2N3906</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="orig value">TZ-581</field>
+      </fields>
+      <libsource lib="Device" part="Q_PNP_EBC" description="PNP transistor, emitter/base/collector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>600DD22E</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>470R</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>600DFF11</tstamp>
+    </comp>
+    <comp ref="Q4">
+      <value>2N3904</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="orig value">TZ-81</field>
+      </fields>
+      <libsource lib="Device" part="Q_NPN_EBC" description="NPN transistor, emitter/base/collector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>600E0C6F</tstamp>
+    </comp>
+    <comp ref="Q5">
+      <value>2N3904</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="orig value">TZ-81</field>
+      </fields>
+      <libsource lib="Device" part="Q_NPN_EBC" description="NPN transistor, emitter/base/collector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>600E12BD</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>1.5M</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>600E1BE6</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>680R</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>600E1FB6</tstamp>
+    </comp>
+    <comp ref="J18">
+      <value>POS. NULL</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>600E25EE</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>220R</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>600E384D</tstamp>
+    </comp>
+    <comp ref="CR1">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/85622/1n914.pdf</datasheet>
+      <fields>
+        <field name="orig value">1N914</field>
+      </fields>
+      <libsource lib="Diode" part="1N914" description="100V 0.3A Small Signal Fast Switching Diode, DO-35"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>600E679F</tstamp>
+    </comp>
+    <comp ref="CR2">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/85622/1n914.pdf</datasheet>
+      <fields>
+        <field name="orig value">1N914</field>
+      </fields>
+      <libsource lib="Diode" part="1N914" description="100V 0.3A Small Signal Fast Switching Diode, DO-35"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>600E7DD9</tstamp>
+    </comp>
+    <comp ref="CR4">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/85622/1n914.pdf</datasheet>
+      <fields>
+        <field name="orig value">1N914</field>
+      </fields>
+      <libsource lib="Diode" part="1N914" description="100V 0.3A Small Signal Fast Switching Diode, DO-35"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>600ED0D8</tstamp>
+    </comp>
+    <comp ref="CR5">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/85622/1n914.pdf</datasheet>
+      <fields>
+        <field name="orig value">1N914</field>
+      </fields>
+      <libsource lib="Diode" part="1N914" description="100V 0.3A Small Signal Fast Switching Diode, DO-35"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>600EDF11</tstamp>
+    </comp>
+    <comp ref="Q6">
+      <value>2N3904</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="orig value">TZ-81</field>
+      </fields>
+      <libsource lib="Device" part="Q_NPN_EBC" description="NPN transistor, emitter/base/collector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>600EF5C8</tstamp>
+    </comp>
+    <comp ref="Q7">
+      <value>2N3904</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="orig value">TZ-81</field>
+      </fields>
+      <libsource lib="Device" part="Q_NPN_EBC" description="NPN transistor, emitter/base/collector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>600F0B3E</tstamp>
+    </comp>
+    <comp ref="Q8">
+      <value>2N3904</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="orig value">TZ-81</field>
+      </fields>
+      <libsource lib="Device" part="Q_NPN_EBC" description="NPN transistor, emitter/base/collector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>600F1675</tstamp>
+    </comp>
+    <comp ref="CR6">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/85622/1n914.pdf</datasheet>
+      <fields>
+        <field name="orig value">1N914</field>
+      </fields>
+      <libsource lib="Diode" part="1N914" description="100V 0.3A Small Signal Fast Switching Diode, DO-35"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>600F2D9B</tstamp>
+    </comp>
+    <comp ref="Q9">
+      <value>2N3906</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="orig value">TZ-581</field>
+      </fields>
+      <libsource lib="Device" part="Q_PNP_EBC" description="PNP transistor, emitter/base/collector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>600F7AE3</tstamp>
+    </comp>
+    <comp ref="Q10">
+      <value>2N3906</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="orig value">TZ-581</field>
+      </fields>
+      <libsource lib="Device" part="Q_PNP_EBC" description="PNP transistor, emitter/base/collector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>600F8D6C</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>1.5M</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>600FC006</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>680R</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>600FC388</tstamp>
+    </comp>
+    <comp ref="J10">
+      <value>NEG. NULL</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>600FC392</tstamp>
+    </comp>
+    <comp ref="A2">
+      <value>LM301</value>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm101a-n.pdf</datasheet>
+      <fields>
+        <field name="orig value">LM301A</field>
+      </fields>
+      <libsource lib="Amplifier_Operational" part="LM301" description="Operational Amplifier, DIP-8/TO-99-8"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601155E7</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>OUTPUT</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6011633D</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>100pF</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60117116</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>50pF</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601181A3</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>82k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60118CDD</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>10pF</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60119879</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>180k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6011E0A9</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>50pF</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6011F73E</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>27k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6011F991</tstamp>
+    </comp>
+    <comp ref="J9">
+      <value>GAIN TRIM</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6011FF5F</tstamp>
+    </comp>
+    <comp ref="A1">
+      <value>LM301</value>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm101a-n.pdf</datasheet>
+      <fields>
+        <field name="orig value">LM301A</field>
+      </fields>
+      <libsource lib="Amplifier_Operational" part="LM301" description="Operational Amplifier, DIP-8/TO-99-8"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6014489D</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>18k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601465CA</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>50pF</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60147517</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>18k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6014801B</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>220pF</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60176CD0</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>1M</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60184F60</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>12pF</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601A35D1</tstamp>
+    </comp>
+    <comp ref="Q12">
+      <value>2N3906</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="orig value">TZ-581</field>
+      </fields>
+      <libsource lib="Device" part="Q_PNP_EBC" description="PNP transistor, emitter/base/collector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601AB449</tstamp>
+    </comp>
+    <comp ref="Q11">
+      <value>2N3904</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="orig value">TZ-81</field>
+      </fields>
+      <libsource lib="Device" part="Q_NPN_EBC" description="NPN transistor, emitter/base/collector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601AC5FD</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>18k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601AE1B1</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>220R</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601CC087</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>4.7k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60202334</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Amplifier_Operational" part="NE5534">
+      <aliases>
+        <alias>SA5534</alias>
+        <alias>LM101</alias>
+        <alias>LM201</alias>
+        <alias>LM301</alias>
+        <alias>AD797</alias>
+        <alias>LT1012</alias>
+      </aliases>
+      <description>Single Low-Noise Operational Amplifiers, DIP-8/SOIC-8</description>
+      <docs>http://www.ti.com/lit/ds/symlink/ne5534.pdf</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
+        <fp>TO?5*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">NE5534</field>
+      </fields>
+      <pins>
+        <pin num="1" name="BAL" type="input"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V-" type="power_in"/>
+        <pin num="5" name="COMP" type="input"/>
+        <pin num="6" name="~" type="output"/>
+        <pin num="7" name="V+" type="power_in"/>
+        <pin num="8" name="C/B" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x01">
+      <description>Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x01</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Q_NPN_EBC">
+      <description>NPN transistor, emitter/base/collector</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NPN_EBC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Q_PNP_EBC">
+      <description>PNP transistor, emitter/base/collector</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_PNP_EBC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E" type="passive"/>
+        <pin num="2" name="B" type="input"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="1N4148">
+      <aliases>
+        <alias>1N4448</alias>
+        <alias>1N4149</alias>
+        <alias>1N4151</alias>
+        <alias>1N914</alias>
+        <alias>BA243</alias>
+        <alias>BA244</alias>
+        <alias>BA282</alias>
+        <alias>BA283</alias>
+        <alias>BAV17</alias>
+        <alias>BAV18</alias>
+        <alias>BAV19</alias>
+        <alias>BAV20</alias>
+        <alias>BAV21</alias>
+        <alias>BAW75</alias>
+        <alias>BAW76</alias>
+        <alias>BAY93</alias>
+      </aliases>
+      <description>100V 0.15A standard switching diode, DO-35</description>
+      <docs>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</docs>
+      <footprints>
+        <fp>D*DO?35*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N4148</field>
+        <field name="Footprint">Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Amplifier_Operational">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Amplifier_Operational.lib</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="Diode">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Diode.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(A1-Pad3)">
+      <node ref="A1" pin="3"/>
+      <node ref="C3" pin="2"/>
+      <node ref="R12" pin="1"/>
+    </net>
+    <net code="2" name="GND">
+      <node ref="C6" pin="1"/>
+      <node ref="R18" pin="1"/>
+      <node ref="J7" pin="1"/>
+      <node ref="C8" pin="1"/>
+      <node ref="C7" pin="2"/>
+      <node ref="R7" pin="1"/>
+      <node ref="R3" pin="1"/>
+      <node ref="R4" pin="1"/>
+      <node ref="R12" pin="2"/>
+      <node ref="C3" pin="1"/>
+      <node ref="CR4" pin="2"/>
+      <node ref="CR2" pin="1"/>
+    </net>
+    <net code="3" name="+15V">
+      <node ref="R1" pin="2"/>
+      <node ref="C7" pin="1"/>
+      <node ref="J6" pin="1"/>
+      <node ref="A2" pin="7"/>
+      <node ref="A1" pin="7"/>
+    </net>
+    <net code="4" name="Net-(A1-Pad8)">
+      <node ref="A1" pin="8"/>
+    </net>
+    <net code="5" name="Net-(A1-Pad5)">
+      <node ref="A1" pin="5"/>
+    </net>
+    <net code="6" name="Net-(A1-Pad1)">
+      <node ref="A1" pin="1"/>
+      <node ref="C2" pin="2"/>
+    </net>
+    <net code="7" name="Net-(A2-Pad6)">
+      <node ref="C4" pin="1"/>
+      <node ref="A2" pin="6"/>
+      <node ref="R16" pin="1"/>
+      <node ref="J5" pin="1"/>
+    </net>
+    <net code="8" name="Net-(A2-Pad1)">
+      <node ref="C5" pin="2"/>
+      <node ref="A2" pin="1"/>
+    </net>
+    <net code="9" name="Net-(A2-Pad8)">
+      <node ref="C5" pin="1"/>
+      <node ref="A2" pin="8"/>
+    </net>
+    <net code="10" name="Net-(J9-Pad1)">
+      <node ref="J9" pin="1"/>
+      <node ref="R15" pin="1"/>
+    </net>
+    <net code="11" name="-15V">
+      <node ref="C8" pin="2"/>
+      <node ref="R2" pin="1"/>
+      <node ref="A2" pin="4"/>
+      <node ref="A1" pin="4"/>
+      <node ref="J8" pin="1"/>
+    </net>
+    <net code="12" name="Net-(A2-Pad5)">
+      <node ref="A2" pin="5"/>
+    </net>
+    <net code="13" name="Net-(A2-Pad3)">
+      <node ref="C9" pin="1"/>
+      <node ref="A2" pin="3"/>
+      <node ref="R18" pin="2"/>
+      <node ref="C6" pin="2"/>
+    </net>
+    <net code="14" name="Net-(CR1-Pad1)">
+      <node ref="CR1" pin="1"/>
+      <node ref="CR2" pin="2"/>
+    </net>
+    <net code="15" name="Net-(J2-Pad1)">
+      <node ref="R13" pin="2"/>
+      <node ref="J2" pin="1"/>
+    </net>
+    <net code="16" name="Net-(A1-Pad6)">
+      <node ref="R8" pin="2"/>
+      <node ref="R11" pin="1"/>
+      <node ref="C1" pin="2"/>
+      <node ref="A1" pin="6"/>
+      <node ref="R10" pin="1"/>
+    </net>
+    <net code="17" name="Net-(CR4-Pad1)">
+      <node ref="CR5" pin="2"/>
+      <node ref="CR4" pin="1"/>
+    </net>
+    <net code="18" name="Net-(Q11-Pad1)">
+      <node ref="Q12" pin="1"/>
+      <node ref="R11" pin="2"/>
+      <node ref="Q11" pin="1"/>
+    </net>
+    <net code="19" name="Net-(CR5-Pad1)">
+      <node ref="Q7" pin="1"/>
+      <node ref="R2" pin="2"/>
+      <node ref="Q6" pin="1"/>
+      <node ref="CR5" pin="1"/>
+    </net>
+    <net code="20" name="Net-(A1-Pad2)">
+      <node ref="C1" pin="1"/>
+      <node ref="R10" pin="2"/>
+      <node ref="Q11" pin="2"/>
+      <node ref="Q11" pin="3"/>
+      <node ref="Q12" pin="2"/>
+      <node ref="C2" pin="1"/>
+      <node ref="R13" pin="1"/>
+      <node ref="A1" pin="2"/>
+      <node ref="Q12" pin="3"/>
+    </net>
+    <net code="21" name="Net-(Q5-Pad2)">
+      <node ref="R4" pin="2"/>
+      <node ref="R5" pin="2"/>
+      <node ref="Q5" pin="2"/>
+    </net>
+    <net code="22" name="Net-(J4-Pad1)">
+      <node ref="R3" pin="2"/>
+      <node ref="R14" pin="2"/>
+      <node ref="Q10" pin="2"/>
+      <node ref="J4" pin="1"/>
+    </net>
+    <net code="23" name="Net-(J18-Pad1)">
+      <node ref="R5" pin="1"/>
+      <node ref="J18" pin="1"/>
+    </net>
+    <net code="24" name="Net-(CR1-Pad2)">
+      <node ref="R1" pin="1"/>
+      <node ref="Q2" pin="1"/>
+      <node ref="Q1" pin="1"/>
+      <node ref="CR1" pin="2"/>
+    </net>
+    <net code="25" name="Net-(Q10-Pad1)">
+      <node ref="Q5" pin="1"/>
+      <node ref="Q10" pin="1"/>
+      <node ref="Q9" pin="1"/>
+      <node ref="R8" pin="1"/>
+      <node ref="Q4" pin="1"/>
+    </net>
+    <net code="26" name="Net-(Q4-Pad2)">
+      <node ref="R14" pin="1"/>
+      <node ref="Q4" pin="2"/>
+    </net>
+    <net code="27" name="Net-(A2-Pad2)">
+      <node ref="C4" pin="2"/>
+      <node ref="R16" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="Q3" pin="3"/>
+      <node ref="A2" pin="2"/>
+      <node ref="Q4" pin="3"/>
+      <node ref="Q8" pin="3"/>
+      <node ref="R15" pin="2"/>
+      <node ref="Q9" pin="3"/>
+    </net>
+    <net code="28" name="Net-(CR3-Pad2)">
+      <node ref="Q2" pin="3"/>
+      <node ref="CR3" pin="2"/>
+    </net>
+    <net code="29" name="Net-(CR3-Pad1)">
+      <node ref="Q5" pin="3"/>
+      <node ref="CR3" pin="1"/>
+      <node ref="Q3" pin="2"/>
+    </net>
+    <net code="30" name="Net-(CR6-Pad2)">
+      <node ref="Q8" pin="2"/>
+      <node ref="Q10" pin="3"/>
+      <node ref="CR6" pin="2"/>
+    </net>
+    <net code="31" name="Net-(Q9-Pad2)">
+      <node ref="Q9" pin="2"/>
+      <node ref="R6" pin="2"/>
+      <node ref="R7" pin="2"/>
+    </net>
+    <net code="32" name="Net-(J10-Pad1)">
+      <node ref="R6" pin="1"/>
+      <node ref="J10" pin="1"/>
+    </net>
+    <net code="33" name="Net-(Q1-Pad2)">
+      <node ref="Q1" pin="2"/>
+      <node ref="Q1" pin="3"/>
+      <node ref="Q3" pin="1"/>
+      <node ref="Q2" pin="2"/>
+    </net>
+    <net code="34" name="Net-(Q6-Pad2)">
+      <node ref="Q6" pin="3"/>
+      <node ref="Q7" pin="2"/>
+      <node ref="Q8" pin="1"/>
+      <node ref="Q6" pin="2"/>
+    </net>
+    <net code="35" name="Net-(CR6-Pad1)">
+      <node ref="CR6" pin="1"/>
+      <node ref="Q7" pin="3"/>
+    </net>
+  </nets>
+</export>
