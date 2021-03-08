@@ -1050,14 +1050,14 @@ Wire Wire Line
 Connection ~ 8400 3400
 Wire Wire Line
 	8400 3400 8400 2500
-Text Notes 7350 2350 0    50   ~ 0
-match and thermal pair
+Text Notes 7600 2350 0    50   ~ 0
+thermal pair
 Wire Notes Line
-	7300 2250 8300 2250
+	7550 2250 8100 2250
 Wire Notes Line
-	8300 2250 8300 2400
+	8100 2250 8100 2400
 Wire Notes Line
-	8300 2400 7300 2400
+	8100 2400 7550 2400
 Wire Notes Line
-	7300 2400 7300 2250
+	7550 2400 7550 2250
 $EndSCHEMATC

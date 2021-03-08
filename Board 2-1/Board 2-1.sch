@@ -840,13 +840,13 @@ Wire Notes Line
 Wire Wire Line
 	6900 1900 6900 1950
 Text Notes 6350 1200 0    50   ~ 0
-match and thermal pair
+thermal pair
 Wire Notes Line
-	6300 1100 7300 1100
+	6300 1100 6850 1100
 Wire Notes Line
-	7300 1100 7300 1250
+	6850 1100 6850 1250
 Wire Notes Line
-	7300 1250 6300 1250
+	6850 1250 6300 1250
 Wire Notes Line
 	6300 1250 6300 1100
 Wire Wire Line

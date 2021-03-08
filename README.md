@@ -36,6 +36,9 @@
 ## Patroche reverse
 - Some typos presents, missing items in BOM, and some components are mislabelled in the PCB placement pictures
 
+## Board 1
+- On patroche, R27 (near S7) is R36
+
 ## Board 3
 Adaptations have been made for 4072 VCF instead of 4012.
 

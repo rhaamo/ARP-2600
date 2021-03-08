@@ -1735,16 +1735,16 @@ Wire Wire Line
 Wire Wire Line
 	13850 7000 13850 6450
 Connection ~ 13850 6450
-Text Notes 9700 3550 0    79   ~ 0
-match and thermal pair
+Text Notes 10250 3500 0    79   ~ 0
+thermal pair
 Wire Notes Line
-	9650 3400 9650 3600
+	10200 3350 10200 3550
 Wire Notes Line
-	9650 3600 11200 3600
+	10200 3550 11050 3550
 Wire Notes Line
-	11200 3600 11200 3400
+	11050 3550 11050 3350
 Wire Notes Line
-	11200 3400 9650 3400
+	11050 3350 10200 3350
 Text Notes 3800 2000 0    79   ~ 0
 Exponential Converter
 Text Notes 6400 2000 0    79   ~ 0

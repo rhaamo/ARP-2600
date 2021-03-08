@@ -724,13 +724,13 @@ Wire Notes Line
 Wire Notes Line
 	3650 3850 3650 4150
 Text Notes 3750 1050 0    50   ~ 0
-match and thermal pair
+thermal pair
 Wire Notes Line
-	3700 950  4700 950 
+	3700 950  4250 950 
 Wire Notes Line
-	4700 950  4700 1100
+	4250 950  4250 1100
 Wire Notes Line
-	4700 1100 3700 1100
+	4250 1100 3700 1100
 Wire Notes Line
 	3700 1100 3700 950 
 Wire Wire Line
